@@ -1,0 +1,44 @@
+[26-Aug-2019 15:43:36 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/productos.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:44:24 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/productos.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:44:37 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/productos.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:45:01 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/productos.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:45:41 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/productos.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:46:14 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php:7
+Stack trace:
+#0 /home/fibercon/public_html/millennialsys/millennials_sys/usuarios.php(21): require_once()
+#1 {main}
+  thrown in /home/fibercon/public_html/millennialsys/millennials_sys/config/conexion.php on line 7
+[26-Aug-2019 15:49:33 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:08:33 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:09:29 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:09:59 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:10:28 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:12:01 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel/Calculation/Functions.php on line 581
+[26-Aug-2019 16:31:44 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/fibercon/public_html/millennialsys/millennials_sys/lib/PHPExcel/PHPExcel.php' (include_path='.:/usr/local/php71/pear') in /home/fibercon/public_html/millennialsys/millennials_sys/exportarfacturas.php on line 34
+[02-Sep-2019 20:27:36 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 90
+[02-Sep-2019 20:28:32 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 90
+[02-Sep-2019 20:28:34 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 90
+[02-Sep-2019 20:28:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 90
+[23-Sep-2019 23:02:02 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 82
+[23-Sep-2019 23:04:44 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 82
+[23-Sep-2019 23:04:51 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/fibercon/public_html/millennialsys/millennials_sys/reportes.php on line 82
