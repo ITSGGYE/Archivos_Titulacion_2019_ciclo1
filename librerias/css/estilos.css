@@ -1,0 +1,286 @@
+body{
+	padding: 70px;
+}
+
+.fondo
+			{
+				margin:0;
+				padding:0px 25px;
+				background-color:#e5e5e;
+				
+			}
+.box{
+	height: 170px;
+	width: 100%;
+	padding: 50px;
+	background-color:#e5e5e5 ;
+	border-color: #e5e5e5 ;
+	color: black;
+	margin:auto;
+}
+
+.modal .modal-footer {
+		background: #ecf0f1;
+		border-radius: 0 0 3px 3px;
+	}
+.modal .form-control {
+		border-radius: 2px;
+		box-shadow: none;
+		border-color: #dddddd;
+	}
+
+.fa-pencil-square-o {
+        color: #FFC107;
+       	font-size: 25px;
+    }
+    table.table td a.delete {
+        color: #F44336;
+    }
+
+.fa-search {
+
+color:  #2471A3;
+font-size: 25px;  }
+
+.fa-pencil {
+
+color:  #FFC107;
+font-size: 25px;  }
+
+.fa-trash {
+
+color:  #C0392B;
+font-size: 25px;  }
+
+.fa-book{
+  color:  #2471A3;
+font-size: 25px;
+
+}
+
+
+
+
+/***sidbar**/
+
+i {
+  font-size:12px;
+}
+
+.nav > li > a {
+  color:#fff;
+}
+.espacio{
+  width: 100%;
+  height: 80px;
+  background: #333;
+}
+footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#efefef;
+}
+
+/* count indicator near icons */
+.nav>li .count {
+  position: absolute;
+  bottom: 12px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  background: rgba(51,200,51,0.55);
+  color: rgba(255,255,255,0.9);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.color-menu{
+  background:  #C9A0E1;
+  color: white;
+
+
+}
+.nav-header{
+  
+   color: #e1ffff;
+   padding: 10px;
+ border: 1px solid #23282e;
+font-family: verdana;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 20px;
+
+}
+
+/* indent 2nd level */
+.list-unstyled li > ul > li {
+   
+   
+  background-color: #181c20;
+   list-style: none;
+  padding: 0px;
+  margin: 0px;
+ 
+  cursor: pointer;
+  
+}
+.list-unstyled li {
+  padding: 0px;
+  margin: 0px;
+  
+  
+}
+
+.list-unstyled li a{
+  color: white;
+  text-decoration: none;
+
+
+ 
+
+}
+.list-unstyled ul li{
+  width: 100%;
+  line-height: 35px;
+   border-bottom: 1px solid #554;
+
+}
+
+.list-unstyled ul li:hover{
+  background-color: #020203;
+   
+}
+
+.nav-header:hover{
+  background: #456;
+  
+  width: 100%;
+  border-left: 3px solid #F39C12;
+ 
+}
+
+.banneradmin{
+  width: 100%;
+  height: 150px;
+  background-color:#2196f3;
+  border-color: #2196f3;
+  margin-bottom: 15px;
+}
+
+.banneradmin h1 {
+  padding: 20px;
+  text-align: left;
+  line-height: 35px;
+  color: white;
+  font-size: 35px;
+}
+
+.banneradmin p{
+  padding: 20px;
+  text-align: left;
+  
+  color: white;
+  font-size: 25px;
+
+}
+
+.cerrar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+*paneles*/
+.panel-green {
+  border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+  border-color: #5cb85c;
+  color: white;
+  background-color: #5cb85c;
+}
+.panel-green > a {
+  color: #5cb85c;
+}
+.panel-green > a:hover {
+  color: #3d8b3d;
+}
+.panel-red {
+  border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+  border-color: #d9534f;
+  color: white;
+  background-color: #d9534f;
+}
+.panel-red > a {
+  color: #d9534f;
+}
+.panel-red > a:hover {
+  color: #b52b27;
+}
+.panel-yellow {
+  border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+  border-color: #f0ad4e;
+  color: white;
+  background-color: #f0ad4e;
+}
+.panel-yellow > a {
+  color: #f0ad4e;
+}
+.panel-yellow > a:hover {
+  color: #df8a13;
+}
+.panel-orange {
+  border-color: #F39C12;
+}
+.panel-orange > .panel-heading {
+  border-color: #F39C12;
+  color: white;
+  background-color: #F39C12;
+}
+.panel-orange > a {
+  color: #F39C12;
+}
+.panel-orange > a:hover {
+  color: #BA4A00;
+}
+
+.panel-blue {
+  border-color: #1A5276;
+}
+.panel-blue > .panel-heading {
+  border-color: #1A5276;
+  color: white;
+  background-color:#1A5276;
+}
+.panel-blue > a {
+  color: #1A5276;
+}
+.panel-blue > a:hover {
+  color: #2980B9;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.428571429;
+}
+.fondo_registro{
+	background: rgba(86, 81, 81, 0.55);
+	margin-left: 100px;
+	margin-right: 100px;
+	height: auto;
+	color: #fff;
+}
