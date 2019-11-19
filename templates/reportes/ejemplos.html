@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+{% block menu%}
+{% include 'base/menu.html'%}
+{% endblock%}
+
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Evaluacion total de Docentes </h3>
+                    </div>
+                    <div style="text-align: center">
+                        
+                        <img src="/reportes/plot/{{id}}/" width="800px" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,100 @@
+{% extends 'base/base.html'%}
+{% load static %}
+{% block estilos %}
+<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" >
+<link href="{% static 'css/personales/misestilos.css' %}" rel="stylesheet">
+{% endblock %}
+{% block menu%}
+{% include 'base/menu.html'%}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">{{title}}</h3>
+                        <input type="hidden" id="pathRegistro" name="pathRegistro"
+                            value="{% url 'guardar_usuario'  %}">
+                        <input type="hidden" id="tipoPersona" name="tipoPersona"
+                        value="{{tipoPersona}}">
+                        <input type="hidden" id="pathUsername" name="pathUsername"
+                            value="{% url 'buscar_usuario'  %}">
+                    </div>
+                        <div class="box-body">
+                        
+                        <div class="form-group">
+                            <label for="cedula">Cedula</label>
+                            <input type="text" class="form-control" placeholder="Ingrese la cedula" name="cedula" id="cedula" required>
+                            <span class="error" aria-live="polite"></span>
+                        
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nombres">Nombre</label>
+                            <input class="form-control" placeholder="Ingrese el nombre" name="nombres" id="nombres" required>
+                            <span> </span>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos </label>
+                            <input class="form-control" placeholder="Ingrese el apellido" name="apellidos" id="apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electronico</label>
+                            <input class="form-control" placeholder="Ingrese el correo" name="correo" id="correo" type="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username">Nombre de Usuario</label>
+                            <input onfocusout="ValidarUsuario()" class="form-control" placeholder="Ingrese el Username" name="username" id="username" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input class="form-control" type="password" name="password1" id="password1" required placeholder="Ingrese el Password">
+                        </div>
+
+                        <div class="form-group">
+                                <label for="">Password Confirm</label>
+                                <input class="form-control" type="password" name="password2" id="password2" required placeholder="Confirmacion Password">
+                            </div>
+                    </div>
+                        <button class="btn btn-info btn-block" type="submit" onclick="GuardarUsuario()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+
+
+
+{% block script %}
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script>
+toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": false,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+</script>
+<script src="{% static 'js/personales/registro.js' %}"> </script>
+
+{% endblock %}

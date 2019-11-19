@@ -1,0 +1,37 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+{% include 'base/menu.html' %}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Crear año Lectivo </h3>
+                        <input type="hidden" id="pathAnioLectivo" name="variable4"
+                            value="{% url 'guardarAnioLectivo'  %}">
+                    </div>
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el ano" name="descripcion" id="descripcion">
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-success btn-block" onclick="GuardarAnioLectivo()">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% load static %}
+{% block script%}
+
+<script src="{% static 'js/personales/mantenimiento.js' %}"> </script>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+<aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- /.search form -->
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="header">MENU</li>
+                <!--Menu de Matenimientos-->
+                <li class="active treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> <span>Mantenimiento</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="active"><a href="{% url 'crearLectivo' %}"><i class="fa fa-circle-o"></i> Año Lectivo </a></li>
+                            <li ><a href=""><i class="fa fa-circle-o"></i> Cursos </a></li>
+                            <li ><a href="{% url 'registrar' %}"><i class="fa fa-circle-o"></i>Persona</a></li>
+                            <li><a href=""><i class="fa fa-circle-o"></i> Asignaturas</a></li>
+                        </ul>
+                    </li>
+                <!--Menu ede Evaluacion-->
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Evaluacion</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i>EED</a></li>
+                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> AutoEvaluacion </a></li>
+                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> Direcctivo EDD </a></li>
+                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> EPP </a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </section>
+</aside>
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Asignar Estudiante a un curso  </h3>
+                    </div>
+                    <form method="POST" role="form">
+                            {% csrf_token %}
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label>Docente Calificador</label>
+                                    
+                                    {{form.docenteCalificador}}
+                                </div>
+                                <div class="form-group">
+                                        <label>Docente Calificado</label>
+                                        {{form.profesorCalificado}}
+                                    </div>
+                            </div>
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-success btn-block">Guardar</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}

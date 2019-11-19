@@ -1,0 +1,57 @@
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MENU</li>
+            <!--Menu de Matenimientos-->
+            <li class="active treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Mantenimiento</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{% url 'crearLectivo' %}"><i class="fa fa-circle-o"></i> Año Lectivo </a></li>
+                        <li ><a href="{% url 'crearCurso' %}"><i class="fa fa-circle-o"></i> Cursos </a></li>
+                        <!--<li ><a href="{% url 'registrar' %}"><i class="fa fa-circle-o"></i>Persona</a></li>-->
+                        <li><a href="{% url 'crearAsignatura' %}"><i class="fa fa-circle-o"></i> Asignaturas</a></li>
+                        <li><a href="{% url 'listado_docentes' 2 %}"><i class="fa fa-circle-o"></i> Docentes</a></li>
+                        <li><a href="{% url 'listado_docentes' 1 %}"><i class="fa fa-circle-o"></i> Estudiantes</a></li>
+                        <li><a href="{% url 'listado_docentes' 3 %}"><i class="fa fa-circle-o"></i> Administrativos</a></li>
+                        <li><a href="{% url 'listado_docentes' 4 %}"><i class="fa fa-circle-o"></i> Directivos</a></li>
+                    </ul>
+            </li>
+            <!--Permite Asignacion de Cursos Docentes Estudiantes y todo lo relacionado aquello-->
+            <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Asignar</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{% url 'materiacurso' %}"><i class="fa fa-circle-o"></i> Materias a Cursos </a></li>
+                        <li ><a href="{% url 'estudiantecurso' %}"><i class="fa fa-circle-o"></i> Estudiantes a Cursos  </a></li>
+                        <li ><a href="{% url 'docentecurso' %}"><i class="fa fa-circle-o"></i>Docentes a Cursos</a></li>
+                        <li><a href="{% url 'docasidocente' %}"><i class="fa fa-circle-o"></i>Docente califican a docentes</a></li>
+                    </ul>
+            </li>
+            <!--Menu ede Evaluacion-->
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>Reportes</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a href="{% url 'listarDoc' %}"><i class="fa fa-circle-o"></i>Visualizar</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </section>
+</aside>

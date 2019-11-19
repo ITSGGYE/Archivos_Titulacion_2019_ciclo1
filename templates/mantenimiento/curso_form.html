@@ -1,0 +1,51 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+{% include 'base/menu.html' %}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Registro de Curso </h3>
+                        <input type="hidden" id="pathCursos" name="variable4" value="{% url 'listarcursos'  %}">
+                        <input type="hidden" id="pathGuardar" name="variable4" value="{% url 'guardarCursos'  %}">
+                    </div>
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control" placeholder="Ingreseo el curso"
+                                    name="descripcion" id="descripcion">
+                            </div>
+                            <div class="form-group">
+                                <label>Seleccione el Año Lectivo</label>
+                                
+                                <select name="Lectivo" class="form-control" id="Lectivo"
+                                onclick="">
+                                    <option value="0"> Seleccione un Anio Lectivo </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box-footer">
+                            <button type="submit" onclick="GuardarCurso()"  class="btn btn-success btn-block">Guardar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% load static %}
+{% block script%}
+
+<script src="{% static 'js/personales/mantenimiento.js' %}"> </script>
+<script>
+    $().ready(() =>{
+        ObtenerCurso();
+    });
+</script>
+{% endblock %}

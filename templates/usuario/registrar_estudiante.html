@@ -1,0 +1,66 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+{% include 'base/menu.html'%}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Registro Estudiante</h3>
+                        <input type="hidden" id="pathAnioLectivo" name="variable4"
+                            value="{% url 'guardarAnioLectivo'  %}">
+                    </div>
+                        <div class="box-body">
+
+                        <div class="form-group">
+                            <label for="{{form2.cedula}">Cedula</label>
+                            {{form2.cedula}}
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{form2.nombres.name}}">Primer Nombre</label>
+                            {{form2.nombres}}
+                        </div>
+                        <div class="form-group">
+                            <label for="{{form2.apellidos.name}}">Apellidos </label>
+                            {{form2.apellidos}}
+                        </div>
+                        <div class="form-group">
+                            <label for="{{form.email.name}}">Correo Electronico</label>
+                            {{form.email}}
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{form.username.name}}">Nombre de Usuario</label>
+                            {{form.username}}
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input class="form-control" type="password" name="password1">
+                        </div>
+
+                        <div class="form-group">
+                                <label for="">Password Confirm</label>
+                                <input class="form-control" type="password" name="password2">
+                            </div>
+                    </div>
+                        <button class="btn btn-info btn-block" type="submit">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+
+
+{% load static %}
+{% block script%}
+
+<script src="{% static 'js/personales/registro.js' %}"> </script>
+{% endblock %}

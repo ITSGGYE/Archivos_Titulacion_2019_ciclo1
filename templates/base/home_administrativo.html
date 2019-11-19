@@ -1,0 +1,170 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+{% include 'base/menu.html'%}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Listado de Docentes  </h3>
+                      
+                    </div>
+                    <!--Este es el cuerpo-->
+                    <div class="box-body">
+                        <table id="example2" class="table table-bordered table-hover" data-page-length='5'>
+                            <thead>
+                                <tr><th>Nombres</th></tr>
+                            </thead>
+                            <tbody>
+                                
+                                {% if docentes %}
+                                {% for doc in docentes %}
+                                    <tr>
+                                        <td>{{doc }}</td>
+                                    </tr>
+                                {% endfor %}
+                                {% else %}
+                                <h5>No tiene docentes registrados</h5>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        
+        <!--Esta es la tabla para las asignaturas-->
+        <div class="col-md-6">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Listado de Asignaturas</h3>
+                    </div>
+                    <!--Este es el cuerpo-->
+                    <div class="box-body">
+                        <table id="example1" class="table table-bordered table-hover" data-page-length='5'>
+                            <thead>
+                                <tr><th>Nombres</th></tr>
+                            </thead>
+                            <tbody>
+                                {% if asignatura %}
+                                {% for asi in asignatura %}
+                                    <tr>
+                                        <td>{{asi }}</td>
+                                    </tr>
+                                {% endfor %}
+                                {% else %}
+                                <h5>No tiene asignatura registrada</h5>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+          </div>
+       <!--Listado de Estudiantes-->
+       <div class="col-md-6">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Listado de Estudiantes</h3>
+                </div>
+                <!--Este es el cuerpo-->
+                <div class="box-body">
+                    <table id="example3" class="table table-bordered table-hover" data-page-length='5'>
+                        <thead>
+                            <tr><th>Nombres</th></tr>
+                        </thead>
+                        <tbody>
+                            {% if estudiante %}
+                            {% for est in estudiante %}
+                                <tr>
+                                    <td>{{est }}</td>
+                                </tr>
+                            {% endfor %}
+                            {% else %}
+                            <h5>No tiene estudiante registrada</h5>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+      </div>
+       
+        <!-- Cursos -->
+        <div class="col-md-6">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Listado de Cursos</h3>
+                    </div>
+                    <!--Este es el cuerpo-->
+                    <div class="box-body">
+                        <table id="example4" class="table table-bordered table-hover" data-page-length='5'>
+                            <thead>
+                                <tr><th>Nombres</th></tr>
+                            </thead>
+                            <tbody>
+                                {% if curso %}
+                                {% for curs in curso %}
+                                    <tr>
+                                        <td>{{curs }}</td>
+                                    </tr>
+                                {% endfor %}
+                                {% else %}
+                                <h5>No tiene curso registrada</h5>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+          </div>
+    </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% load static %}
+{% block script %}
+
+<script src="{% static 'js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'js/dataTables.bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.slimscroll.min.js'%}"></script>
+<script src="{% static 'js/fastclick.js'%}"></script>
+
+<script>
+    $(function () {
+        $('#example1').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example2').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example3').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example4').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+    })
+</script>
+{% endblock %}

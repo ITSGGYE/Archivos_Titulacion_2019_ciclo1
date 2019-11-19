@@ -1,0 +1,57 @@
+{% extends 'base/base.html' %}
+
+{% block menu%}
+{% include 'base/menu.html'%}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+        <div class="container">
+           <br>
+           <div class="row">
+              <div class="col-xs-12">
+                 <div class="box">
+                    <!--Cabecerra de la tabla-->
+                    <div class="box-header">
+                     <h3 class="box-title">Listado de reportes</h3>
+                    </div>
+                    <!--Cuerpo de la tabla -->
+                    <div class="box-body table-responsive no-padding">
+                       <table class="table table-hover">
+                          <th></th>
+                          <th></th>
+                          <tr>
+                           <td>Calificacion de la evaluacion del desempeño docente</td>
+                           <td> <a href="{% url 'reporte_persona_pdf' %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                          <tr>
+                           <td>Calificacion de la evaluacion del desempeño por asignacion</td>
+                           <td> <a href="{% url 'reposteria' 1 %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                        <tr>
+                           <td>Evaluacion total del docentes</td>
+                           <td> <a href="{% url 'reposteria' 2 %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                        <tr>
+                           <td>Diferencia entre EED y Autoevaluacion </td>
+                           <td> <a href="{% url 'reporte_diferencia_pdf'  %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                        <tr>
+                           <td>Diferencia entre EDD y EPP </td>
+                           <td> <a href="{% url 'reporte_diferencia_academica_pdf'  %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                        <tr>
+                           <td>Promedio </td>
+                           <td> <a href="{% url 'reporte_promedio_pdf'  %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                        <tr>
+                           <td>Docentes superaron el 75 Grafico  </td>
+                           <td> <a href="{% url 'reposteria' 3  %}" class="btn btn-success"> Ver Reportes </a></td>
+                        </tr>
+                       </table>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+<div class="content-wrapper">
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <!--Cabecerra de la tabla-->
+                    <div class="box-header">
+                        <h3 class="box-title">Tipos de Evaluacion</h3>
+                        <div class="box-tools">
+                            
+                        </div>
+                    </div>
+                    <!--Cuerpo de la tabla -->
+                    <div class="box-body table-responsive no-padding">
+                        <table class="table table-hover">
+                            <th>Evaluacion</th>
+                            <th></th>
+                            {% for evaluar in evaluacion %}
+                            <tr>
+                                <td>{{ evaluar.evaluacion.descripcion}}</td>
+                                {%if evaluar.evaluacion.id == 2 %}
+                                <td> <a href="{% url 'calificar_autoevaluacion' evaluar.evaluacion.id  %}" class="btn btn-success"> Calificar </a></td>
+                                {% else %}
+                                <td> <a href="{% url 'listadoDocentes' evaluar.evaluacion.id  %}" class="btn btn-success"> Ir </a></td>
+                                {% endif %}
+                            </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

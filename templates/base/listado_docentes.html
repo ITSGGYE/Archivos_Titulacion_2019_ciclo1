@@ -1,0 +1,95 @@
+{% extends 'base/base.html'%}
+{% block menu%}
+{% include 'base/menu.html' %}
+{% endblock%}
+{% block content %}
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            <div class="col-md-10">
+                    <a class="btn btn-info" href="{% url 'registrar_docente' tipoPersona %}">Registrar</a>
+                    <br>
+                    <br>
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">{{title}} </h3>
+                        
+                        <input type="hidden" id="pathAnioLectivo" name="variable4"
+                            value="{% url 'guardarAnioLectivo'  %}">
+                    </div>
+                    <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover" data-page-length='5'>
+                                    <thead>
+                                        <tr><th>Nombres</th>
+                                            <th>Nombre Usuario</th>
+                                            <th>Correo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% if docentes %}
+                                        {% for doc in docentes %}
+                                            <tr>
+                                                <td>{{doc.first_name }}  {{doc.last_name }} </td>
+                                                <td>{{doc.username}}  </td>
+                                                <td>{{doc.email}}  </td>
+                                            </tr>
+                                        {% endfor %}
+                                        {% else %}
+                                        <h5>No tiene docentes registrados</h5>
+                                        {% endif %}
+                                    </tbody>
+                                </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}
+
+{% load static %}
+{% block script%}
+<script src="{% static 'js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'js/dataTables.bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.slimscroll.min.js'%}"></script>
+<script src="{% static 'js/fastclick.js'%}"></script>
+
+<script>
+    $(function () {
+        $('#example1').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example2').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example3').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+        $('#example4').DataTable({
+            'paging': true,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': true,
+            'autoWidth': false
+        })
+    })
+</script>
+<script src="{% static 'js/personales/mantenimiento.js' %}"> </script>
+{% endblock %}

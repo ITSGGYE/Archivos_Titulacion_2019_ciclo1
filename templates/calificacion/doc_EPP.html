@@ -1,0 +1,71 @@
+{% extends 'base/base.html' %}
+
+{% block title%}
+Calificacion a docentes
+{% endblock%}
+{% block menu%}
+{% endblock %}
+{%block content %}
+<div class="content-wrapper">
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title"> Listado de Preguntas</h3>
+          </div>
+          <input type="hidden" id="calificadoepp" name="variable2" value="{{docente.id}}" placeholder="{{docente.persona.id}}">
+          <input type="hidden" id="calificadorepp" name="variable3" value="{{ user.Persona_id}}" placeholder="{{user.Persona_id}}">
+          <input type="hidden" id="pathepp" name="variable4" value="{% url 'guardarEPP'  %}">
+          <div class="box-body table-responsive no-padding">
+          <table class="table table-hover" id="tblCalificacion">
+                <thead>
+                  <tr>
+                    <td>#</td>
+                    <td>Nunca</td>
+                    <td>Rara Vez</td>
+                    <td>Algunas Veces</td>
+                    <td>Frecuentemente</td>
+                    <td>Siempre</td>
+                  </tr>
+              </thead>
+              <tbody>
+                
+              {%for pregunta in preguntas%}
+              {% if pregunta.ispregunta %}
+              <tr>
+                <td id="{{pregunta.id}}"> {{pregunta.descripcion}} </td>
+                {% for resp in response%}
+                <td>
+                  <input type="radio" name="{{pregunta.id}}" id="{{resp.id}}" value="{{resp.valor}}"  checked>
+                </td>
+                {% endfor %}
+              </tr>
+              {% else %}
+              <input type="hidden" id="evaluacionepp" name="variable" value="{{pregunta.tipoEvaluacion_id}}">
+              {% endif %}
+              {% endfor %}
+           
+            </tbody>
+          </table>   
+          <!--<button class="btn btn-success btn-block" id="btnCalificar">CALIFICAR</button>  -->
+        </form>  
+        </div>
+        <button class="btn btn-success btn-block" id="btnCalificar" onclick="GuardarCalificacionEPP()">CALIFICAR</button> 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+{% block script%}
+{% load static %}
+<script src="{% static 'js/personales/calificacion.js' %}"> </script>
+{% endblock %}
