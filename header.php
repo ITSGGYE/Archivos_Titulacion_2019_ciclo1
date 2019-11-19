@@ -1,0 +1,1 @@
+<p class="text-muted text-center">COLGYE <a href="http://ueguayaquil.educacion.ec//" target="_blank">Todos los derechos reservados</a> &copy; 2019</p>
