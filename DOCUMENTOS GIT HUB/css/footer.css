@@ -1,0 +1,14 @@
+body {
+  
+}
+footer {
+	z-index: 1000;
+  background: #3E4F6A;
+    color: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
