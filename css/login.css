@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+   font-family: verdana;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+	padding-top:10%;
+}
+html{
+    background: url(../img/dibujo.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+	text-align:center;
+	color: #fff;
+	margin: 1% 0%;
+	font-size: 1.5em;
+}
+form {
+  position: absolute;
+top: 30%;
+left: 55%;
+  width: 380px;
+  background: rgba(0,0,0,0.3) ;
+ transform: translate(-70%);
+ padding: 50px;
+  border: 1px solid #fff;
+
+}
+form img{
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    top: calc(-100px/2);
+    left: calc(35%);
+}
+form input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: rgba(0,0,0,.3);
+  border: 1px;
+  border-bottom: 1px solid #fff;
+  color:#fff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+form input:focus {
+  border-bottom:2px solid #fff;
+}
+form input[type="submit"]{
+      border: 1px solid #03077C;
+    
+  background: #03077C;
+  cursor:pointer;
+    color:white;
+}
+h2{
+  color: #fff;
+ text-align: center;
+font-size: 30px;
+  
+}
+form input[type="submit"]:hover,.form input[type="submit"]:active,.form input[type="submit"]:focus {
+  color: #fff;
+  background: rgba(255,255,255,.2);
+    border:1px solid #fff;
+}
+.bordes{
+	border-bottom:1px solid #fff;
+}
+ul{
+    display: block;
+    color: white;
+    list-style: none;
+    font-size: .8em;
+    font-weight: bold;
+}
+
