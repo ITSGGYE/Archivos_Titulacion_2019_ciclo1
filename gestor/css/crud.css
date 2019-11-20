@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ok{
+    color: darkgreen;
+    top: 100px;
+    text-align: center;
+    left: 200px;
+    font-size: 30px;
+}
+.contenedor{
+ 
+    margin:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.contenedor h4{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 70px;
+    margin: 5px auto;
+    padding: 10px;
+   
+   
+}
+@media(min-width:1024px){
+    .contenedor form{
+    width: 60%;
+        height: auto;
+        margin: 30px auto;
+    }
+}

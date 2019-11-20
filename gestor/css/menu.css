@@ -1,0 +1,42 @@
+.d-flex{
+    width: 100%;
+    margin-top: 20px;
+   height: auto;
+}
+.p-2 .div-imagen {
+    margin-top: 20px;
+  position:relative;
+}
+.div-imagen .text{
+  
+   font-size: 12px; 
+   
+}
+.div-imagen img {
+ width: 200px;
+    height: 200px;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+       transition: .5s all;
+}
+
+.desvanecer:hover {
+   
+  opacity: 0.03;
+ 
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}

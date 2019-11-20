@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+          <recursos>$C:\wamp64\www\subirpdf\juegos\matematicas\</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+          <corfondo>8AE6F9</corfondo>
+        <corbanda>8AE6F9</corbanda>
+        <cornavega>8AE6F9</cornavega>
+        <cormensaxes>000000</cormensaxes>
+          <cortexto>000000</cortexto>
+          <titulo>juegos de matematicas</titulo>
+          <subtitulo>matematicas</subtitulo>
+          <informe>1</informe>
+          <botonson>1</botonson>
+          <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+         <sonido nivel="100" modo="1" >..\matematicas\Alan Walker -  Love always (New song)(MP3_70K).mp3</sonido>
+        <correcto son="\" modo="1" >CORRECTO</correcto>
+        <incorrecto son="\" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>..\matematicas\img7.jpg</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="center">
+<font color="#080000" face="Nirmala UI Semilight" size="32">JUEGOS MATEMATICOS<br>
+<br>
+</font><font color="#FFFFFF" face="Russo" size="24">Estos juegos estan dirigidos al aprendizaje mediante tectnicas experimental, de los cuales afianzara lo aprendido en clases</font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>51</tipo>
+              <son auto="1">..\matematicas\ALAN WALKER - 2019(MP3_70K).mp3</son>
+              <valor>6</valor>
+              <peza imaxe="..\matematicas\img1.png">1</peza>
+              <peza imaxe="..\matematicas\img4.png">2</peza>
+              <forma>1</forma>
+              <modo>1</modo>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="3" >
+              <tipo>36</tipo>
+              <son auto="1">..\matematicas\Alan Walker -  Love always (New song)(MP3_70K).mp3</son>
+              <forma>0</forma>
+              <valor>1</valor>
+        </paxina>
+        <paxina id="4" >
+              <tipo>4</tipo>
+              <son auto="1">..\matematicas\Música de Fondo Para Videos   Música Cinematográfica Inspiradora.mp3</son>
+              <modo>2</modo>
+              <sopa enun="..\matematicas\triangular-prism.png">prisma</sopa>
+              <sopa enun="..\matematicas\dodecahedron.jpg">decahedro</sopa>
+              <sopa enun="..\matematicas\cube.png">cubo</sopa>
+              <sopa enun="..\matematicas\rectangulo.png">rectangulo</sopa>
+              <sopa enun="..\matematicas\rombo.png">rombo</sopa>
+              <sopa enun="..\matematicas\hexagono.png">hexagono</sopa>
+              <sopa enun="..\matematicas\circulo.jpg">circulo</sopa>
+              <sopa enun="..\matematicas\ovalo.jpg">ovalo</sopa>
+              <enunciado>0</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="5" >
+              <tipo>17</tipo>
+              <parellas>..\matematicas\circulo.jpg</parellas>
+              <parellas>..\matematicas\cube.png</parellas>
+              <parellas>..\matematicas\ovalo.jpg</parellas>
+              <parellas>..\matematicas\triangular-prism.png</parellas>
+              <parellas>..\matematicas\dodecahedron.jpg</parellas>
+              <parellas>..\matematicas\hexagono.png</parellas>
+              <cfondo>8AE6F9</cfondo>
+              <ctapa>FFFFFF</ctapa>
+              <tempo>160</tempo>
+        </paxina>
+        <paxina id="6" >
+              <tipo>44</tipo>
+              <cousa nome="CIRCULO" son="\">..\matematicas\circulo.jpg</cousa>
+              <cousa nome="CUBO" son="\">..\matematicas\cube.png</cousa>
+              <cousa nome="OVALO" son="\">..\matematicas\ovalo.jpg</cousa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>3</tipo>
+              <imaxe>..\matematicas\CUBO.PUZLE.jpg</imaxe>
+              <son auto="1">..\matematicas\Música de Fondo Para Videos   Música Cinematográfica Inspiradora.mp3</son>
+              <imfondo  trans="100">..\matematicas\CUBO.PUZLE.jpg</imfondo>
+              <filas>2</filas>
+              <columnas>2</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+    </libro>
+</lim>
