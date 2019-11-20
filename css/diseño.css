@@ -1,0 +1,30 @@
+article p img{
+	 width:32%;
+	 float:left;
+	 padding: 2%;
+ }
+
+ article, .mensaje{
+ 	border:1px solid #ccc;
+ }
+
+ .mensaje {
+	background: #2895de;
+	padding:10px;
+	color:#fff;
+	border-radius:5px;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+  box-shadow: 0 1px 2px #013D82 !important;
+} 
+
+article{
+     margin: 10px 0px;
+	 margin-left:1%;
+	float: left;
+	width: 100%;
+ 	padding:30px;
+ 	background: rgb(255, 255, 255);
+	border-radius:5px;
+ }
