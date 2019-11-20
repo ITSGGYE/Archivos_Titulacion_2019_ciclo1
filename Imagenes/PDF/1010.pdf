@@ -1,0 +1,721 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+11 0 R
+13 0 R
+15 0 R
+]
+/Count 4
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+>>
+/XObject << 
+/I1 10 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text /ImageC ]
+endobj
+5 0 obj
+<<
+/Producer (dompdf 0.8.0
+ + CPDF)
+/CreationDate (D:20191030163148+01'00')
+/ModDate (D:20191030163148+01'00')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 595.280 841.890]
+/Parent 3 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 10133 >>
+stream
+
+q
+75.000 0 0 75.000 260.140 732.874 cm /I1 Do
+Q
+0.000 0.502 0.000 rg
+BT 94.839 701.741 Td /F2 14.0 Tf  [(ESCUELA DE EDUCACION BASICA "JULIO PE—A BERMEO")] TJ ET
+1.000 0.000 0.000 rg
+BT 175.138 668.040 Td /F2 12.0 Tf  [(REPORTE DE ALUMNOS MATRICULADOS)] TJ ET
+0.000 0.000 0.000 rg
+BT 227.650 636.324 Td /F2 12.0 Tf  [(Periodo Lectivo: 2019-2020)] TJ ET
+BT 234.154 606.108 Td /F2 12.0 Tf  [(Curso: Tercero B·sico A)] TJ ET
+BT 34.766 574.081 Td /F2 10.0 Tf  [(DATOS DEL ALUMNO)] TJ ET
+BT 36.266 557.026 Td /F2 9.0 Tf  [(Apellidos: )] TJ ET
+BT 77.522 557.026 Td /F1 9.0 Tf  [( x)] TJ ET
+BT 185.984 557.026 Td /F2 9.0 Tf  [(C.I: )] TJ ET
+BT 203.480 557.026 Td /F1 9.0 Tf  [( 1010)] TJ ET
+BT 36.266 534.541 Td /F2 9.0 Tf  [(Nombres: )] TJ ET
+BT 76.505 534.541 Td /F1 9.0 Tf  [( x)] TJ ET
+BT 185.984 534.541 Td /F2 9.0 Tf  [(Sexo: )] TJ ET
+BT 209.231 534.541 Td /F1 9.0 Tf  [( M)] TJ ET
+BT 283.232 534.541 Td /F2 9.0 Tf  [(Etnia: )] TJ ET
+BT 309.485 534.541 Td /F1 9.0 Tf  [( Indigena)] TJ ET
+BT 36.266 512.056 Td /F2 9.0 Tf  [(Fecha de nacimiento: )] TJ ET
+BT 120.506 512.056 Td /F1 9.0 Tf  [( 1990-10-10)] TJ ET
+BT 185.984 512.056 Td /F2 9.0 Tf  [(Lugar de nacimiento: )] TJ ET
+BT 271.232 512.056 Td /F1 9.0 Tf  [( 1)] TJ ET
+BT 283.232 512.056 Td /F2 9.0 Tf  [(Nacionalidad: )] TJ ET
+BT 339.491 512.056 Td /F1 9.0 Tf  [( 1)] TJ ET
+BT 36.266 489.571 Td /F2 9.0 Tf  [(DirecciÛn: )] TJ ET
+BT 78.503 489.571 Td /F1 9.0 Tf  [( l)] TJ ET
+BT 185.984 489.571 Td /F2 9.0 Tf  [(Parroquia: )] TJ ET
+BT 230.732 489.571 Td /F1 9.0 Tf  [( l)] TJ ET
+BT 36.266 467.086 Td /F2 9.0 Tf  [(Tipo de Alumno: )] TJ ET
+BT 104.027 467.086 Td /F1 9.0 Tf  [( Nuevo)] TJ ET
+BT 185.984 467.086 Td /F2 9.0 Tf  [(Usa Expreso: )] TJ ET
+BT 239.480 467.086 Td /F1 9.0 Tf  [( Si)] TJ ET
+BT 36.266 444.601 Td /F2 9.0 Tf  [(Llamar en caso de emergencia: )] TJ ET
+BT 157.991 444.601 Td /F1 9.0 Tf  [( Padre)] TJ ET
+BT 185.984 444.601 Td /F2 9.0 Tf  [(Celular: )] TJ ET
+BT 220.229 444.601 Td /F1 9.0 Tf  [( kk)] TJ ET
+BT 283.232 444.601 Td /F2 9.0 Tf  [(TelÈfono Convecional: )] TJ ET
+BT 371.729 444.601 Td /F1 9.0 Tf  [( l)] TJ ET
+BT 34.766 422.088 Td /F2 10.0 Tf  [(DATOS DEL PADRE Y LA MADRE)] TJ ET
+BT 36.266 405.022 Td /F2 9.0 Tf  [(Nombre del padre: )] TJ ET
+BT 36.266 403.534 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 403.534 Td /F1 9.0 Tf  [(: Undefined variable: nombre_padre in )] TJ ET
+BT 36.266 396.109 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 393.127 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 393.127 Td /F2 9.0 Tf  [(322)] TJ ET
+BT 313.532 405.022 Td /F2 9.0 Tf  [(C.I: )] TJ ET
+BT 313.532 403.534 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 403.534 Td /F1 9.0 Tf  [(: Undefined variable: cedula_padre in )] TJ ET
+BT 313.532 396.109 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 393.127 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 393.127 Td /F2 9.0 Tf  [(323)] TJ ET
+BT 36.266 370.627 Td /F2 9.0 Tf  [(Nivel de InstrucciÛn: )] TJ ET
+BT 36.266 369.139 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 369.139 Td /F1 9.0 Tf  [(: Undefined variable: nivelp in )] TJ ET
+BT 36.266 361.714 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 358.732 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 358.732 Td /F2 9.0 Tf  [(460)] TJ ET
+BT 313.532 370.627 Td /F2 9.0 Tf  [(Estado Civil: )] TJ ET
+BT 313.532 369.139 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 369.139 Td /F1 9.0 Tf  [(: Undefined variable: estadop in )] TJ ET
+BT 313.532 361.714 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 358.732 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 358.732 Td /F2 9.0 Tf  [(461)] TJ ET
+BT 36.266 336.232 Td /F2 9.0 Tf  [(OcupaciÛn : )] TJ ET
+BT 36.266 334.744 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 334.744 Td /F1 9.0 Tf  [(: Undefined variable: ocupacionp in )] TJ ET
+BT 36.266 327.319 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 324.337 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 324.337 Td /F2 9.0 Tf  [(464)] TJ ET
+BT 313.532 336.232 Td /F2 9.0 Tf  [(Empresa: )] TJ ET
+BT 313.532 334.744 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 334.744 Td /F1 9.0 Tf  [(: Undefined variable: empresa_padre in )] TJ ET
+BT 313.532 327.319 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 324.337 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 324.337 Td /F2 9.0 Tf  [(465)] TJ ET
+BT 36.266 301.837 Td /F2 9.0 Tf  [(Nombre de la madre: )] TJ ET
+BT 36.266 300.349 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 300.349 Td /F1 9.0 Tf  [(: Undefined variable: nombre_madre in )] TJ ET
+BT 36.266 292.924 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 289.942 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 289.942 Td /F2 9.0 Tf  [(470)] TJ ET
+BT 313.532 301.837 Td /F2 9.0 Tf  [(C.I: )] TJ ET
+BT 313.532 300.349 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 300.349 Td /F1 9.0 Tf  [(: Undefined variable: cedula_madre in )] TJ ET
+BT 313.532 292.924 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 289.942 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 289.942 Td /F2 9.0 Tf  [(471)] TJ ET
+BT 36.266 267.442 Td /F2 9.0 Tf  [(Nivel de InstrucciÛn: )] TJ ET
+BT 36.266 265.954 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 265.954 Td /F1 9.0 Tf  [(: Undefined variable: nivelm in )] TJ ET
+BT 36.266 258.529 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 255.547 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 255.547 Td /F2 9.0 Tf  [(474)] TJ ET
+BT 313.532 267.442 Td /F2 9.0 Tf  [(Estado Civil: )] TJ ET
+BT 313.532 265.954 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 265.954 Td /F1 9.0 Tf  [(: Undefined variable: estadom in )] TJ ET
+BT 313.532 258.529 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 255.547 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 255.547 Td /F2 9.0 Tf  [(475)] TJ ET
+BT 36.266 233.047 Td /F2 9.0 Tf  [(OcupaciÛn : )] TJ ET
+BT 36.266 231.559 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 231.559 Td /F1 9.0 Tf  [(: Undefined variable: ocupacionm in )] TJ ET
+BT 36.266 224.134 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 221.152 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 221.152 Td /F2 9.0 Tf  [(478)] TJ ET
+BT 313.532 233.047 Td /F2 9.0 Tf  [(Empresa: )] TJ ET
+BT 313.532 231.559 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 231.559 Td /F1 9.0 Tf  [(: Undefined variable: empresa_madre in )] TJ ET
+BT 313.532 224.134 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 221.152 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 221.152 Td /F2 9.0 Tf  [(479)] TJ ET
+BT 36.266 198.652 Td /F2 9.0 Tf  [(Email: )] TJ ET
+BT 36.266 197.164 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 197.164 Td /F1 9.0 Tf  [(: Undefined variable: email in )] TJ ET
+BT 36.266 189.739 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 186.757 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 186.757 Td /F2 9.0 Tf  [(484)] TJ ET
+BT 36.266 164.257 Td /F2 9.0 Tf  [(Padres Separados: )] TJ ET
+BT 36.266 162.769 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 162.769 Td /F1 9.0 Tf  [(: Undefined variable: separados2 in )] TJ ET
+BT 36.266 155.344 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 152.362 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 152.362 Td /F2 9.0 Tf  [(501)] TJ ET
+BT 313.532 164.257 Td /F2 9.0 Tf  [(Nombre de cÛnyugue actual: )] TJ ET
+BT 313.532 162.769 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 162.769 Td /F1 9.0 Tf  [(: Undefined variable: nombre_conyugue in )] TJ ET
+BT 313.532 155.344 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 152.362 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 152.362 Td /F2 9.0 Tf  [(502)] TJ ET
+BT 36.266 129.862 Td /F2 9.0 Tf  [(Representante: )] TJ ET
+BT 36.266 128.374 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 128.374 Td /F1 9.0 Tf  [(: Undefined variable: nombre_representante in )] TJ ET
+BT 36.266 120.949 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 117.967 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 117.967 Td /F2 9.0 Tf  [(505)] TJ ET
+BT 313.532 129.862 Td /F2 9.0 Tf  [(C.I: )] TJ ET
+BT 313.532 128.374 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 128.374 Td /F1 9.0 Tf  [(: Undefined variable: cedula_representante in )] TJ ET
+BT 313.532 120.949 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 117.967 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 117.967 Td /F2 9.0 Tf  [(506)] TJ ET
+BT 590.798 129.862 Td /F2 9.0 Tf  [(Parentesco: )] TJ ET
+BT 590.798 128.374 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 128.374 Td /F1 9.0 Tf  [(: Undefined variable: relacion in )] TJ ET
+BT 590.798 120.949 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 117.967 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 117.967 Td /F2 9.0 Tf  [(531)] TJ ET
+BT 36.266 95.467 Td /F2 9.0 Tf  [(Autorizados para retirar al estudiante: )] TJ ET
+BT 36.266 93.979 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 93.979 Td /F1 9.0 Tf  [(: Undefined variable: autorizo in )] TJ ET
+BT 36.266 86.554 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 83.572 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 83.572 Td /F2 9.0 Tf  [(534)] TJ ET
+BT 34.016 45.467 Td /F2 12.0 Tf  [(522)] TJ ET
+BT 52.016 45.467 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 45.467 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 45.467 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 89
+/Height 87
+/Filter /FlateDecode
+/DecodeParms << /Predictor 15 /Colors 3 /Columns 89 /BitsPerComponent 8>>
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Length 15494>>
+stream
+xú§|gî◊uÊï´´sœLœÙ‰êÅ‰DÃÉ(íï”ë%YégWí-“÷Z^Ø)Ÿíl*ê"EëbŒô  Ç à0Hìg09véïﬂ{˚c@äíEêªæ?ÍÃÙ©ÆÍ˚’ΩﬂªÔÜÇå1!Ö1  ÄˆÙˇÚuˇˇ›˜Ω"XæË≤¬˜|˛^˘P7Ê.^ıùk1∆ﬁ{¸˝á 2  ¸ÉªBâ§ÆöWÛj£t˘w0 Ñ«ß”Èó_~%Z^—⁄⁄Z´J$Ωß{9û´©âÊ"$bAë$ÈÃ…”+∫ö"eë|>¯«s €åJ Äc (•Ã0JàÊıäÇ  [˛©Ôj!X~∏ÀºÁ¯
+˛I,‡á¥∆B»(É2 ¶g¶ggf‰Å@ ‰0x~˘∆M3-€•ljrÍSü˙Ù÷Õ[v]~ŸœÓ˘Y:ìv\gÂäNûŸ^µ2]rt3meıÓ-U±Üﬂ˝ÊâHUŸæ¸≈∑éÜC›=›œ=˝LS]„Íï´r≈,Öî√º„8¶iB4è«Ô˜äÇ¯éûÔµ¯á«%‹á<  !Ñ BSÈ‘––∞aò±X,å`Ñ B ¢G¢{cOY8rˇoÓ©Ø´€µkWM¨∫Æ∂v!æ–Ω•ªhÜGá>˜ôœ>ı‰S≈LÅ9‘.&s≈D*7˜ó_˚◊1˙˚'&ú8ﬁØ˘û8vÚh$‚#Æ}alt˜÷≠…‰“Sœ=ª˚≤›±XA$Ií„íR°êÕfÉ¡@(B‡˜œÓè
+|◊]w}òÛc"€∂˙ááá˝~kkõG”ñü	∆8ùŒ|ˇﬂ`[ˆ–––´Øº⁄ﬂ◊ø≤´´ÆÆ≤˜ƒI€4c—J«∞$ƒ;Vy∞|Ôû+ŒdÃ‰’Wl$ı°«_Ñº¯ˆ©ss˘d4Ê[XúÍŸº·ˆè›~ˆÃôëëIˇıÓ≈∑wÔ^Iíy^`î $Q¬ÁÛÖR©$Ç Ufí‘>éˆëw,ïJù;{éR⁄⁄ﬁÓızm€E‰∫ÆeöˇÌo€∂Õ(+ãúÈ=›ﬁﬁæÔ∫Î/€≥kˇ´ØøÙ¸ãıçÎ∫{öZfÁÊÉëà†(i”±]Àî&ìz¨≤|fz™ob∏,Zöù}¯—ﬂÓ⁄π}vv>±îŸ≥wÔSO<ÒâO|ºøØo˝˙ı6l@QBQåe2i]◊C¡`(D2∫ÃW‰%ˇ=,ﬁKì£cc√ÉCÂÂÂııÇ    √√√∂ÌÆ]≥¶X,|˛≥üªÓ∫k^~˘Âı6Bó‹v˚«+´j«!⁄ÑÊu£h€îÁ◊µW•XâøVEN Ïq5M§ºG
+°Pà¢F¿™ñí)Ø?rÏ‰qA∆=Ú’ØQì|˛·±Q‡«oˇÿ5◊^k[f<ûPU%d≥ôl&#äbU¨íÁ9J)˙#Ç¸*˘”¬Ωwe˙=
+`yΩƒπsÁ«'∆;€; +  Çè¸Ó—XUM0˙˛˜ˇ=ôH~Á;ˇ∏yK˜ß>˘©˚ÓΩ∑≠´cœµ◊747gJf—Ò\∆≤à2EN ê'.càG≤¢Y*ïÌgY.c6oô·¬§OÁCò´’º+ [qU˜
+ﬁ[Úzèü=Ÿ—⁄˘´{Ô˚¯«oˇ›Cè®!höˆﬂˇ›∑1á˛Ó[ﬂ™™™1ìÕåèO÷‘ƒdYzGû%vyç˚”. ¿w›uÁ{Ä¯ÿ Ñé„ú:ujaaqı™U·Pò2ÊÛ˙„…˚Ôª∑ππ…4Õ≈•≈˛Å°-õ∑u≠X±y«Æ{Æ`≤wh!=ìsí”9Ÿ‚e Kâåb‡Bl3ﬁÜÇE©E8˝hı
+ÿu%"1◊À'<7´∞”vÈÌBˆçTÚp*=ZQY≥sÀ’ﬁ`§kÂ™ŸÈ9€4?v«« ∆wÔﬂFÜÜV≠^˝»ÔŸ}Ÿnè«#I≤Î∫Ètö„8IˇXe [∂è?çñM‡›u–e:Ü⁄∂ÛˆÒ∑≥ôLwwè,À‘•∫a>˜¸c™«_=r¿rßr≠+;]@KÆSº√s˘*BQ§rƒ†EJºc{à#! `(H¿Pƒò«ò!ËÍ2H#ä√¡Rûc)€ÚPU]†eyñ%ˆL—8±0Ù|v|u ∫≥´voTªr˜ˆÀ%Q|¸…Áé>æj’ä≥gœ57∑x}˛L∂P(Ê£—ÚB.;;7G)¸îQ¥LêΩcóÚëãë€Úˇî2  ¬»%‰»—£éÌt˜lD¡q‹` ‹Û/‹wÔÉe°Ú+nÿq¯[óÔ∫Í¶oÎZ—üõùùZP|Æd∞ä®P	Pïà,sAQÚà<dî∏.¿!ÄPf[± ‡<ò£>äm:ädrâ)ŒZukàR’¬
+óq≈∞3'ßáΩUü˜◊◊8– .-©Ç\´Ï=›˚Ÿœ}Ê•ó^Z±≤+â®@83;«¯0¯ÆU|_¸a‹
+Bà1ˆˆ±„∫ÆwoË	Çœ&~uﬂ¡`»–JUŸ–Ë»ü˝Õ◊´<çeèü∫rÒç\p•˚d)/≤î^Œ€’>ÚpòM&ds>ëqM◊•å`æ‰`ÇxIßGÍú˘+B>'™ƒk≈bKsOe],-î,~@éâ∆¥‚:%ƒ9<ÂD√É&J}	s¡ùFçAŸO›⁄⁄–pˇc^q≈û7ˆø~ÊÃŸÖÖ˘O‹qõœßf29YVB!0;7œÖÇÔß¸≈‚ÓÑ  ú<ŸõNß7m‹Ñ%˘Ãπæ˘π˘íaåùÍΩÒñ[Ê¶G/€Ω±µÆ!;⁄7<¯ë<ﬂ§.MœG;"˛ùZÜ¸
+Q2W $rYã£íD g3®xE¡#Ö"a·µ∑çá∆∫x/‚›‹ı˛Ï◊∞_ÙÅ¶ûÜâsOLùSlŒ a[+ÍeJx3àÆ\p˘•YK…ˆÏ‹±ÛöÀûyÊŸ˝˚è¸>o¥<224811æzÌ:J®¢z ÑÒx\ñ%EQcÀû	,ñπÛ]Ç¬¡°°ââÈM7
+ÇÄ0óL%˚F}Ï±ıÎ◊x˝çÀ.€ı◊˝’Å‡Ãôg”cw˚∏'Bb÷ÁïEå∫⁄∂0—;ì7Ü‚˘Ay0°ÊQyô«T78CÙíœ(E3Ï≤˛Q˜lZt≈rã¥ºﬁ´¢.ä˜gìF¯˛≥æ#3’î˙T«#©‚Óu∂ˇvãè9"U-cëD2£)bmuµÌÿ≥≥3∑›vÎœ~ˆ”◊^{Ω¶¶æΩΩM◊uIî0BôLVÛx0á)% —•∞`ÔÑ™¬ÖÖ¯˘s˝]]+~?á–âì'Ô˛˛ømÿ–›Ÿ’ÒË√]æsÀGÆøÅöÖÈsø"ã?égdŒ!`$1vléü—„0<]¥)ñ}^µ(.Â¸$Á«¨Ã£î{µêÍ	©^üÏâí˘ˆâ»ÒÉkÚScÅ,M
+%4ﬂ?5i(ÁΩõπ–pº∏·ƒB”@º≤dx}8T±‚ã\`M)7Á¬í+PÒßÅÄ∑gÎÊ∆∆Ügûy:ôN’‘÷mﬂ∂Ωø‡ƒ…ìÌÇ(∫Q“ãöo9DÜΩ/‹; Ç∫nû={.VSá!Ñä&ù:uä â“¡˝Øﬂ˝›¨éFòôÎ˝%)<U/àÜËO—gMìËã«◊>⁄€•Uñ>Ò9‰Ûö…3≈¸r ¨P5ê∑…¢·î\¶ªúá…Bº˜éπﬂ9_ZÚß$>õê Ás•Sì<Á_o™uC∞}4±°oˆòw/◊\µY!D„Ö…L!ë#DFºGu8;±–T]∂b›⁄3gNèçélﬂ∂Ì¯â„££cˆï/soÍF ‡O•íôt&
+QJ..öÔcw]ÙOûÏuª≥≥#º¥¥Ù“K/≠ZΩfl|‚≈ó^hn™øzœ.ßî;ı®îø?§ÃcFDë¢ûMt¸¯@œ„£7NÒW.fï∞Êl®[4_]Yêa0W$CIs:g¶-Z¥âiH\û∏"an¸Œü—GufÀù¡0Ìã:Ku≈âvc¢∂∞‡5ìv
+<,è»üπfmµ
+®e	ú'¨Và&sä¬CGï1«%„<¬€6vÔ⁄æıπgü]µj’ÙÙT¥"™y<îQIî≤ô¥$JÇ ≤ﬂß9˛X cS ìS3ÁŒùÎﬁ–≠i^BË?ˇÛ?ù:qº±Æ~’¶µùÎ÷∂4¥(Vz˛‘˝(ÒtX∂EP¸˛·ﬂ;r›Ysk—◊®UëûÿäÔ€ó€>–óHßLQûgDbÆá/IHQ±&q%S	zD.É¨i\dv⁄(ÃçfgÚc¸Ëò'Ypê7%<—7¸U7Ìª~Kgó<öRåcÄ≥¨πtv¬Å˘@ ,»¶;k+ºtÏÕC3cgOüu!ç≈™æ˘ÕoãÑ`°êw]ß¶∫c|	æ∏@hÊ…ìßÍU˝˘œ^WWü…eó‚Û”Ä√∑Ú3ÇÓ$ŒﬁÀR˜‘	âÃ8ÜøZÒ^;\º≤®4BH;Ûc∑Œø∏aÏ	]O∆Î∫¶ò'`5®XÓQÎ¸bùñ{Ω!ÕÁS]è(xı–¯ƒÿB©4^Än†yºD§ö6Ì¨_√öjì∂Æ&.‘¶Ê¢ı’∑›íë˝ÈT°H†‰UÄﬁó˘…jØ+®Äóx,&“)èW^ﬂŸˆÏ”Oq˙≥üÄUUVJ≤h;∂(â∫Æs<'â“•∞Ä çåã•U´Vˇ˙◊˜-.-ã•¶ÊÊÌªw¶˙≠˝lD˙^ ≥? £ñÄ8 0Ù¬ÈéoΩÂ∫Ü‡JÕ ÔJÔøc˛ïmÖ˝˙πsJÛ˙Hyuá◊i	q≤◊£àîå2¡&„MµáyˇÖ¡◊RK#O>ˆ·fáÜœÃ..m€wC›ﬁ+¸÷€Å‡p…UÆπ—]”C¨ãp∫Ë"É˘Ì3l·gÇıÜ»K¡pO∫Ñô(Q4Åõœf ¸ﬁö ≤˛æsº${ΩÅGy§*Vó1 àCcèz	Ó¶i-..557ÂrŸ7ﬁ8 Ib"ô¨´ØyˆÈ«o˝Ùg:ÎäcRãˇZ¶åÒ#¬à§>ræ˙{oÔâÉ=@HNi[Ó¿≠ôü≠œèÁù\:Ëº˛≤⁄ˆ _î-‡"fb‚@"Ä]ﬁ` WıÖØº˙ì±Íhs€Èö⁄¶p4í/îZö◊H™/g∫∏≤•˘3µûΩ◊Y.ëêe„Å/‡œ§ıSçz∑ªL	¥©ÂëBèfSÆFûêûrG'ó÷t¨¯ÚWˇ¸´_˝zEEtll¥™™∫µ•ï∏ÑΩU_
+À≤ûó%Iî§o|„ﬂ˝ÁÔñ„ÒGìdÆ"eπ∏9rø$ˆÊEã◊E°ó&ÍÔ>x„yv‚ƒPiÓÚÃ¡è¶ü®!}ã®hwµµ}·kUóÔsòj[é…1,âòÿê"Äd»x8Ã∏x<ç<¬⁄ùWàúV›∂P@∞tæÃ°ee"%ºÀ◊VuzMk`.1ó^êÉ˘<qÆÀt¥Ü2QP tÀSÁÖ∂MF:ÙH¢I‰ñÊí¶◊Z≥z›°CájkkwÏ‹È8.0óÕU≈¢ÄÖ B€∂eYÈZ±‚ﬁ{Ô{Ë·áé|Îo˛¸y¸…˚‹coWn´Õ©SD&M?yu˚xÈ:‡âå¯’K˚?Zz†¡ùã;›yı⁄Ø¸•gEOﬁ  P»Që
+„C”°®/`*;rú !8yaˇâ3è§å=AUs\@ãCH‡¿K/<SòLÆ\∑RˆKf⁄Xπæß¢±reM0œè$≤NP, ÄÜ 3%Ïönõß\≤°@ãçAO÷(f≠
+ 6Doın[πÚcü¯xcS√u◊]´ijI◊ßßß0Ü~üÔRX0dYTTuvv6
+Ÿñ!∫„é;nˇ»≠^—∑tv§ˇøÚèå⁄≥—∫´=vÖˆon<<∑œˆq¢û[ïÔΩ%Ûxò«BËÚkV˛èˇ…W‘Âu`A¿Q®¨(“Øºˆ¿ÈŒ¶f`Ωî€æe◊ÓM[≥ãá6ØF|◊µöÑgÇ ÊâXHgNü;ÛVäîT^»õ∑u‹éê]Q·#≤4êHªr8âW=KôEui±-T·R("ÿ^Ï/e˙r√GNÌœåñÃÀØÏ⁄u˝ækl€öôI¶SiQíöõõ.Ç ¿hmm>zÙÿ–‡`]]Ê8F∏ô˘ŸÉøº«?2VO‘ÃÒ¸‰Rn∏∫˙çÖÕ∫VOÅ—eùº⁄π7ÊûIôÇºguÛ∑æÍV‘ò%«eÄ√ `¢#¿sÑ"˜ı√Øü:~§¬Xª∫ï«0>?ÕÉ·M+å‘ÿÎ±nÃdó9ò√•L!üÕﬁÚóükYU[,©ZÆ™å¢≈£
+Ø
+Å”üú#¨Ç"/Ê¢≥≈Ñ§¶+5üyûïéù}·æÛO&ËÇÊﬂ^∏9ùHÿÆ1äUUÜ"Aå9BDË˝ ·ñU›∂uÎ»‘‰§ 	Ê	ÑÒ±∑˜t£¶h™ πSÇg:}çˆˆ+aØÕ±´≤olœË(ÆYﬂÛ∑ﬂ ’UV¡BL‡§Ñ∏»%u†ùKï÷7≠¸Œ7æ÷T]äñÒJ˘O¸0 ıU*©ÉnuÊ”æHªIöÒÖÃBy´Î;÷¨+Ãr%‰ƒ9Ë€¢U Ãëdúz…∫\1¢Á=>–7z˙˘ì˜Ω2∂?+Ö≤]¯⁄¬±€»mõ6∫åBå0 å:ÑQÄﬁ7∏∏Ë#Ä1†$â+WÆ0t›¥, ®»„≈Á
+Œı{	5x1§8rv¸•◊ZåŸ,¥Vìil$3’—µ_ˇ[≠zk.óaêöà!hHHT±Ê23ΩDsx]˜M[Voﬁ∆Ÿ∏ƒÉÈ”ΩÛ'{MO—‹2ê}˚–ñk€ì8∆èNIõû>:€Kí‚∑‰à‰Â∞øús úi‰+|˛íUò*•∏HÖÀ√Åôø{Îâ…ëÉ◊t¶æ~]‰«ßs√¶)Ò`‹1ûÓecÂ: yB ∆BÄ |ﬂ2—ÔÌ  % †(ä¢* Ä˘â±…”ß âcÈ. @D" ÃƒÜ¿È[Ì„émPöC$v˚æÚÕÎlÀqDôiÏ9Ø#á’2©Z<2ß˜ÇO1rlæßæ—∂s«^˛œÆÚÕchâOﬁs°∂ΩΩ{œ\"ˇ–ëŸ!¥¬úê÷ú…‹¥3†!“{lhj:Sﬂ÷( zÁäF`M8ê6ì”©Å#≥G_Î{j±4ÿ¨ÊªÎ·∂∆ÄOm¸·±—Òl îÀﬁö=7ñühÙ∑0 À(¿KñJ]w›	!`À)¿%BBiÔπÛ±ÓÕÌ[.+z¥%GgÜ¡[:rÑ]S *
+D›õ◊˝≈ˇ–5≠á≥y˙Doﬂ·„ˇ¸µÔ˜œ¢∂ÍüÊﬁfµIóq∆“ÆÆÿ»˛◊å˘'7˜Ú
+4PŸ—ÅB†≤Á°'^:pŒê£1‹‘x{-_U=Ú‚πü|ˇ¡ó^>“S/ˆ_µ¶Ω"R∆,*‹C/˝Úπ3ø…kSP ùä¯±∂¶+´ätEÎªçt1ùäßL£—[Ω∂j5¢êB‡B )Bó¨sÏ›2$ BÑÑ0õ…‰£±gc§;h¨Z˚ˆÉ˜Â_yu]πìR)≠9Lr „Ωm˚ç∂ô¶ãà´9!Ü†Q0sm›ùÕ+:üzÂ‘º“ÙQØ„ôûö˚÷?¸Øâ/Ï\ÉÙ3â7\oA93¯⁄ΩÏöàª‘ª*∞pL§z_nÍ5¥}ı∑ˇqb˙tc∫·Û∑265÷VD#ÆÎ0B#ä¥qE”´Û˘<ü√6kEyı™A⁄S2C≥.πlwWÏ»›O˜ü<tÎÍ}
+B!ÑïºÑèÄÂäÎ;ıîe‹ñó≤ZÂ∑^|˝≠ÅS·∫ LMŸ¥ﬂª~ÛgñéÉá_OÃ/z∑nn›P$ÑT≥9C@&¡ô[˛ÍKo8vÚôß• 7; ‰éhTHôßè?º¥0ÁN∑ç{¢!Uíòä”0µÅÈ÷5OæΩDŸpΩ•aéMìAÈ B∆©‘óØæ˙#õ”\õ7â·ÿ6O∂…∂VˆµÌœ“∏R{eÎ®oÛcÉùÂ27°[ÿuæºÂœà¯ÎÛ#˝„s√]µõ ÖæØ ˜NÜ¯ù,ÄÑ∞\.ó∏è◊{¯v¡lè™ΩcR√Áv_ˇπÙ©g^~Ø\IΩaﬁ†î+PŒ-	
+Â¸X0;q·‹≥˚Æ∫~¸Ã!ßtDJ>Wù/›æ5òõé§G∑y’lîÇ|Ã©≥¶€6Æ≤Ss6UÎÉï„È‰®„h°H6ô≠Œ{Ô`cUÎû}∫mûƒ8∆8Wk±À:Ø<˝ π∆ ´≠®6BKòºSıüÆZ BU˘K/ûÛÃ‚hW›& rC ˛qÈøÿ≈;âpX∂eÍfu](ëœAåã”â≥œøKÕ¥G|Ÿ°#dÌzœˆ´:Îöãºk[íbÉ"‚ÃŸ"«#¶∆oYª¥ò:¥;9«Œ$‹x∫8$”úm˜Ï’ﬁÿÒÄzŒ*55†G p4lÕûoû5" 2ÁòÁgÁÖ:ÒÀpÚÏ[xf–KÛoø¥gÕ∆@ytmä `8ås˘ı£®∂)ıJ,ï/v©ƒñ9$@1¿,ZúöõL#}∏0´3[Å§Ôõ¬y_0#Rx
+©tVäOâ`ê±Î’Vœf®’hï`—∞s iíÊb`NvU 	GÛ≈πó <Á|XÈ}Ì>RÁõp:C
+Ñ)ÚÅt^é,Øæ¬nZ˜ /ˇ=®&´ƒÖÏ‹vRı⁄‡".´“q≥£ì⁄ŒÌK3•˘¡7ÍƒúFrÚ,ò?y∂b_#± <c–‰\X±@Ÿ⁄ ’Gß_ÿ?8¥æcYh◊æ=Ì‘+YüqjxqÀ‹RqºdÂ>†ò¢Kπ»;µ"Lóì¢îX*%Xj$ß=AYï≠◊^}≠"Ë˘™∑_}cÀ÷èrD$f.œ\´6∞	Ö@„È“!uXÒ•/»ü?7¿∂¡õ˛RŒ∫úg≥Á}}±0óòè/îC9∫©µπvfb⁄…Ëò#U-u%O{¡ñ  r:1~Ù–ojâ`}√Ò"L,“©ßûm›∫Q®I)Ñ
+®∆{Z*_*}∑Ô–\r€ õªx≥¡WZäèÓg]Á›tRœGëãı√KVò9Bàñ{Y °ô≈”ø¯—ÏœE•º:*qW‰%√™Íj˜Ç Ö3#~Qr±Ì— fBj#2,"!œ>¯üˇ—¬ü◊4ê‘sÁœZeº]ﬂÅœúxn1õm(ÁmX–DìpÁ“¢fZ!À z_Õ,•uÀˆ™ï•˙UâÇ;©z≥9ﬂ=3EÓÓÖQ Ñ⁄ÚZ4ß_êAà2óaÅØ´jìZJ0~{˛ )‰?Ÿ≥gGÑŸ®4öM ÑΩ„¢ÆÁ≥ ∏ÃêBpâ¿ì 	0 àfÚÅseÒ$Âè0Ñ€xñ$cÙÃ‘⁄äF$ÕijŸ˝wÕclQÊB∆AÜtY (cÁÂJ^Ÿ∏≤≈&¶¶é=Z’ñüèÿ\Üf®Ä˘ÄÏ›jEé∆ä,-ÿôtúS9•¶˙ì«OΩ~˘’ë⁄
+8:6ﬂl
+÷náï≈¶Nô/Tí„≤G%ªM ` 1Ãπ|M†Æå´t	uºÓ√CâS©Øv7…º0¨«¬9S7≠ ÄÜﬁÈ8ªàDŸr—ïBòKõê¿†HôPt±©n≈ÆÈ0øî]∂ﬂ´Úò»1Ïr‘•.’ıÍh’ónˇÍ≥s∫— BRqen`Ï»£è∂Èo|ª∑eOø∆JÚl2o¿@NêFR”á¶ßY6Y(¨mè«}s©‡p1vÍe“|á∞fg˛ÒÇ≤;€ü…œº™Ù¨Tƒê(C DaîIﬁ.î≥≤H“m¡Û‹\I9tjMTΩP»#E‰- á Ä É@ ﬂ∑ ~±nEî@»3Ã(∞≤∆t[2í] ä∞¿sÃºàj>ãp6 U%
+9é"áZ∫òçt¸Ï´œπ¶yÚ≠©πÛ•˙®?¢¡nEú~Ó˛∆¯πZÊ»Düt}¨mÀ√3â∏≠èª§}ÕVy!^QªÒ¯àw
+ÙV~¸ÛÉj√pq™8∆ƒV7ÕÆ◊„\äØK≈< Ù3f2¢" aÆ("p9;çÿ®Ü™πÖBo.›
+=Mq[.Q∂Ω%^¥v	 ¿ªk™ë ÇÄc Ÿy&Û¢#98≈6
+Sf∆IŒG-óåÉ6œQ ä@f1@èäY77G$πºz7_(gE4xôú…‰Ó?îE≠ST*∞zY1ÎÚò¨")'‘∑x[]4ÛLÓsYRÑ-ö∑¬ûÈOéóûùûŸÿQÿ∑I»iº„TÄîb)å"0å`"ÖÌÿ¸r_∆˚ô‰”˙BØçärAÖ9Ω√õó&O0 ‰0dêA %ÿèÍØç’Fä˝ÛÂ?>µbZ⁄H,⁄lNÓ5ˆ+pƒtM	0É2ƒD( Ñ¯*¬ﬁ¶∂…YŒ‚j#ö&Ün≠\©ë„8E(π‰ƒXi\qµVp"«”ú'Y°1j{™Õ≈æzü≈ü˘y[˙Lπ∞*õª´@≠[:'ÊsÛÓ\∫‘“§√ @L)†Ñ1‘qe‡—∏
+»ïT•T6+d`Ö ,ÈÃ£8F∫¯º	 ‡ík…r8@1``B1÷ÇÅZ±'FƒπÅ-#¸^€Gú¯â›v*–°È €%íK \Fvc–s˚ŒègûÍ/F||C≠:öïŒêÄìR˘C˝˙$:W&>êùp^¨Q “‘±˘)I)¿Ï·≥gƒ|¸˙htg£—€‡ªb≥„'RKà`†\S5($òA∂LÉê ®MujbI$¶«eãÊπÇé\…-óBÍ:ê û P  `Pﬁ∑Üà 3)\n≈ Òú…ád8úE,Xz$D¢.ƒ“Ûÿ4#Ñ@)`êHAæÑ,Nê-∫B¡∂Ú\—ÚÛ:Ñã%ÏÔæ∫È+˚ 7Ò†ØÔÕ∆∏ëZX0÷‘.ÆkpÍÀ⁄V:,⁄‹‘(2ÖûòO˛ÀﬁÜ”≠ıv.&Ç]»(d P)¬ càu√,E¿Ò*Æπ" <u	!Ñ »xÒ ÄQ¿  ]b{ˆn~ë_Ç$ŸD§ (
+¡BFveU°Úêj.‹å√sn©îqsY¶"
+ó˘S!üsfç3µÎfV∑myı‹!4¯ÉÇc¡´JZCm©µO§ß◊÷b¬Ê*wEBXÆŒ¨•‚T‘õÉ-´C{|–wb¯µÈ|º6X’Ωˆ™ÍPﬁ_ò0B@¿îßîAå3•åÂZCJØ®»úl…Â%K◊Å0CÄW8QΩ®‚	ZﬁÜ@Ü¿;∆#(™Id U°íêQ©∫2p∏wi ß9úäy‰Ú•È	cÇÅê)√ÑaWÒ™eÎ6–ÕóÕ‘4bÕıñcüê ôà_9 í‹t≤§e9.+ñïJ-b≥–†H’ñSaIa†Ωëµç€Z∫{©óKßfLRpyÄîv1§òb6ïö“ipá
+~§ßíI+oJ€E°D?/i  ﬂyjó¿‚ù6≠wªsàÍ≤)8£±¢P”Œûú Y¬,¨âÉ2 EV»ô√xÀA Bó≠Aõ9yüÙ&´Ñ%êRÃóòlDOπÕûıV(§˘É^◊ãZù™-ÁòÑày≠ÑçÈc„˙Dy®ª ‡¸Ë´Ÿã≠ïì$Ãçs  ê óRä‚ 2Ä1ú4`Jd∏¬Öı ≈â¿¸ú«…à∞ÑÅ‰`0"y   (ÏÎ?,¿EzG®?TâPÃ¥yE0[Éã
+LaÜÔâu)æä0,ZvÍÙyö/.w3å ÄCÜïôü}¸Ÿô˛gr!é3 ïÜCóÍeNïôå\ﬁ´Ö9QJ4MyÕëT◊}æ§G}mÒ¸ºï.ãîôê=?t‰XÚ|˚Œ:B≠ŸyÀ¿*¿d b∏‹ƒ
+X*≈áíÉéË"G®≥+≠!a¯ú_ÓƒΩ≈i#¡EñÒ^Ô≤éË%B òÀYÓÒßÄy}Â™\còLÙ:m—*&)¬ —Á[ÄÉÆ“TﬂpjzN‡y@ôK)§Ä@\§z¡-§`√Pº}<âŒŒÜëbæ>Pvúâ¢	T™¥-ö ÁlÖj≈%j’AÃ‰≈¡âî¢jº™Ã!´Ø4·z-/ßú|˝§æ∞–ﬁ‘ºò» A)†πîπ@@£K£ì•Gîy¿’R+å≤íJèú◊Èí±EAG∞$ª PF ónq^∂ãÂç   ∞,J˛r”Q°„4ïY+™’F`NÙN‡†9_ú|˚-πa»xáπT`”–‰PmEáOQ *§1”}h“x,«ù
+w˛f¥¯∆8ô1QYµ‘—T-C/∂ôWÛ&ôPÚñÕ§˘ÈΩeı™∆Õ-·ûËâÖ˛Àn∏≤£y›'Ø˚“oæcE[Á˝>>3;'J<B16ôur¯ÌHjƒiömÕ≈ñéÀ/!*‡Ç«%Ä¯º˛Íåªÿ¡ÿ%ì|¯ÆªÓ§åB¿A!§"åê^å'fœF‘«IGNË∫∞ﬁ@˛úK+¨(FPApÏt1SµsõÎçp/â»!ŒÒ£g$	◊7À´yI±¸ao„∫Ó¶Õ€øÚ≠®nÍÓòÕÎ≥·ê8›«2…rGÖô`©Vâës«N}ÚÜ›∑‚ß˚Fßf∆À¢ë´ØΩ)•€{Ø∏B|¢˜l VTæÆ)F\SIîssÁ<ro⁄ª»!⁄i€7◊kQO÷tø‚ß”&õ2Ê-+´Ø∏E˙ †0 Ë∫úáÀ,% 9∆fáèh¸ò‡ÂÄõ‡Zs@ãVx ¸JÉòı§g$ƒ«RQ⁄∞÷%–IÂááÜu√5ÏRCSl«ÆÌ≠-Mçı«OÙÆ^µ95o?⁄[◊’∂ı¨ˇ»ëcÖß>7aú:6x∞-Ê˚õ}ªõeR*$'«gºXûõ∏Ú∫´Ô˚ıMÕ-W^π˚˘_onlú_\®è’Ñ< êâ·√o<szæóÛsJŒ›Ê6óôø$˙!»¿¯…E§]Ú‚u[c[˜BÃ∆ d@–%v$¯ÆªÓÑ§
+PR¥•…îÙ)Itûy—ìÃØ+ØPô 
+’•˛úloÊßVo€,x<<¯òƒÀ˛@ ;.â'íUU1πT*À◊7p|’∫Æ]ª∑mπ˘\_Ípo_A,z´Àóí)=1˛≈Æﬂº≤{pxp˝÷57ÓªÒ–°£Á˙ŒWVV∫é”◊◊wÏË[öGëdaÔûΩ’ÂQÃ¡ËB63SƒŸ≈d=À¥UãY; F”LäÑ|∞.∫˜C;•µá ]‰}±∏ÛÆãS(à1)@@q‘Çâgﬁ•
+¡»œk«á∫&≥ëπ8L%ã1œ»·Ú¯Û-¥O a›æºkã¬TûW|aØ(qCCÉáﬂ<<:2zÀ-7y<ÅŸÖ≈û´∂nÔnmn;~rÙõw~˚‹–iµ,¢ñW:úá|[.ø"⁄π¢¢¶:\z)34⁄ﬂ‹“∏{ÁˆñÊÜm€6ﬂ~˚G7mÏâU« •†§iÂäæ¶÷ÊÊ’!Ëè—TOI†`sHÃóóπhN6§à›ﬁ”pıPı"∂º@@»ñ…Ò“X¿w…2Ä `@EÕ˜20ÓãJÄ{s*`ö‚*c†'˜Fwï°\π‚Ug∆–ÿ‡ƒxùºÓ≤}·  P–_Q9wÓÏË»HY$<00ËXée8—ä*>¯€≠;z&ßfK9C&rD(ÁºBäï˙&_}ÙW˙¸°ö™≤XM].ü≠©Ææ˘ÊÎjj™´*£òÉS”-JáiCı,Àƒ”®’lnYÁ!¡\>Ô#ÎXAp¥¨∑∆ªÛ™äı=.D¯ùrŸ;ºØóºk.Ä 2à†À „$π®K3+4.ËW3i,åú∏’yv∑}¶ó:j‰H‰Dr⁄‡Aﬂ`¨<÷XYÎò6¨£Ωı˙kØ›∏±€ÁÛu≠hk™©:wÏ—„Ω˜<ˆ‰ìó]~›“¬‚õ˜<>œ∆ÅD)qb‡ƒ‰πÛ{ÎÈˆ÷Ï˛ÉØ⁄(ÿ÷Ÿ’µ¢]ñD€±\«å2F ¬}KÈß E∆E#Qc§∆´uâﬁ≤ƒÕΩpA PCaÖÜ∫∫ÎnìB¬\û@‡ÚF‰‚å¿˚ò∆≈5ıbﬂ8ê1ƒ»,Ç≤U;ln√ô∏rˇ·Ÿ™Z˚÷u¨*;©0≥|Ê≈˚¯Üû@¿p÷L~ˇ◊ˇr~ÙÑ◊£ Ê
+<œãXî¯µÎV(™¬c˜ÕºRX¢Ö•‘B~`¯¬ˆ›[¬aé[<5ıVXÜ®ÎÖd|"π8©«„çU±]ómè≈* #2 (•\ab!?OEKQƒ	V…G’∏n	b%¥UO∑s®‰
+ãûà∫aΩ∑∫÷a
+π∏MΩ;ºøè‹yÁù‡böAÄ!c Éº*i©4¸ÊcO=ú,-x‰}õÆ%g/ÄºŒÛ&Ã‹%sÕÂ◊ú(&2$õ33'˚œ¥T÷◊◊‘À°.eî HãÛØˇˆáç⁄únŸáé¶üöoÈhè’‘ñÖ¬´{6t≠›πjmwI'◊m€”R±¥æõƒ⁄◊6Ø∫Œ†–uLûòÀ á9Éπ˝Û˘]_¿¬OàZ»µñi™ƒáÒ
+ßOÕ=k53¶ÀB©ySÁæœz ¬¥úÃBpYﬁàe,ñ˘AÄñÛ¿ a ƒ d ´~{zÙƒ“ƒíQÙ˚"õö◊'O*–¢ÎŒ/˘±s”÷ì˘Ÿ$WL['áNj™Ø-÷…ëQá0GV=AnlÎÜŸXsËçcP.ªÂc7©ä™gtç˜G¬Q58@Õx“ØÕ4u"´$ÜBõ\-B®ÀÍ ûHr¡∞ÜÁñf†f˚√Ÿ≤cÛÈ\ç_kPà*_–'~süp¸Ä,ÿ©XE˘ﬁÍ◊o`à¿ ¢ã#î¥W≈wﬁu◊≈…Ωãzë`d0ëó⁄´€^?˙Ê¢ìK\Ëﬁ∞)¬˘”Áá˘ßu	≤∏(gù’ˆ$íúI‚¬—„gsI£©ÆŒ„\ñàp˙ÌóÍ|—Nı+◊]V”P+
+≤◊„çF|· .Ûƒ"ïoÓSU°/Õï™£ÕWò¢ó@‡EK3ŸRﬂB÷·ÉºÍu ÇU≥Ÿ…’¯|∂0è. ˘¶ü}"˚‰˝!◊ÃzÀa˜ÓŒ}˚EaÏ¢0∏‹È˚¡õˆÂ˛Œˇ:å`Lp»·ê¥øˇHé/é¶Êv]u£î`•πÅé+À£Î"KoÙG¶‡˙ç;∆›¬úëÉ"Ï;›?6QÓKß&ÊÁ
+6g†¶∂U7∂vlePT=Åö∫∫≤
+èﬂ/cÏU=¡›{˜lΩ¸∆X”ˆöˆ´ôT&ÒPÖÕ.ù¸≈ô•4jÎ»À>Ñ®T4îÇUÇ™Æ:)hïx^ ˆûùæ˜'Âô)Cñr≠=-7}:T[Gh	@º< ﬂUÈÉ‰˝guŸEÎÄ.¸ƒï∑ûõ¸È´ø<OÁø{ˆ©Ô}˛ÁÁÊNé{ÅkÙÙ˛∞Y∫Û∆kÔ◊ŒΩ>u „uS±¿NjºôŒù◊k¬ı2ØzDük∆(  `Äë ∞à L1£–AÖR…ô9~,ı∆Akx∆YøZÍÓrΩ¢ë…ElkE,¨*,ô∂!"íö:58õ_GÊ,AIV÷DØæ"⁄Ÿ‚R  Êﬁ3"Ù·F2ˇ`~‰èÚ¢py_»†-Ú‚ö˙ÆÁ∆ß3åôEﬁ›}ıGÕ√	„ç	,!W≈x&Àçe÷∂tVW‘3TæcÁ«=Bµãï%lMñ≤9](9j¡—	4 Ÿ/ŸXÅ#ó1#“){r.q‚–‘„M=ÙPÓÿ!_j¶ôÖR“*˛HïÚ-5ÅÄá`«¿ºﬁ‹ô¡Ÿ_<úÊDq)÷ÍøÒ¶ˆkÆAcä ‡ @–ˇ!∞Äå—wO¸£1£¿Ö.Ä Ï¸¬óˇÌœ,-	Ïöéæ[wUÒá?…ûê4ïC Cñ«û‰äMæõo´ﬁ∂1ï)-Ù8FL∆ë†%8ÕCCdô∞Ï|8Ω(%ê¥¨‘ú≥0√Ê2(=IN‚âÁ®`Af¶)^™Zπ·oø£≠Ï¢Æâ›x™≥èå=pèjHÜz°∂Ìππˆ˙´eØ(Pó«*Ö¢ﬂˆH·ﬁ´˛~ãH8Ä êç¢ûJ'DU¯˙Ì_K¸¨–kº‘ˇ
+uııµ'+
+áèÛ––x*1bA`*¡˛ŸBïá[YÓ5HªzA∑m¨ÿ(î®ﬂp uK•'_„N?)C⁄AZH0eáó®ŒT  Í8î*¨¬A`z)Ÿ{*∫≤©H](¯ÅaèæÙ¸¸√˜˙≤xﬁò5∑©1““íN\<≈ÑSµ@ $â< Ôô^˛râyv†!ø0≥‘{˙¥nt√˛≤ûï[yc~~`(◊◊õû_Ω˜öh}Cff⁄(ı—’_˘ú’X=Æ€K:Hñlöÿ†¢ZüX¶| á 1ìÎ;·èè©"îxY0«C9∆8K·%
+xDME\‚ÀŒ°ñFYÕÍ∂X‘gNgÓˇ›ÏSWßΩ»ZU˘äÎZ?r´ZQÚ+¬!è◊ü*3ôåœ´!Ñÿˇ_|¿<˚ÿÿÖS'NwtvVWWCå `º†Ãd2?x¯=Û€§@ =ıüiﬂ{Ó?U®[’≥ÔZˆ9HHÎn≤ƒÚî„0ã «/aØ¬)º(@ﬁ9ÿ?˘WrËUç«»1uB`á@
+F],˙π‡Y©Úå⁄>!ØMÅ–æç‡kızÍ·˚äg5éy\3#®æõnØπÂ#¿„óä÷°GDâﬂ∂cS&ùî$°¢¢úR
+ @˝w±»d2ØΩ∂ø´cU}Cìe¶eJDIƒ‘ô˝”ó~}Ô¡á4p‰ubÎæ©kŸ±Ëê"uBöX•ä*áf•-ö∑EÀ≤p08Ñeû¡GVqIBM
+	¡ÿê`ûxÑ`ÌâT≈Ii˝àZÎ»\®"taé˙Ãô;‚OÓ…‰RíΩ¢≠·Êœ’Ì⁄°# ÅË⁄Ïß˜¸™øo‡¬¯ËïWÔ˘⁄Wˇ,ùI∆™´xÅ_û£˚`$.˝˛ãâ…©ÍXm"ëúúöﬂ∞~˝∑Ô˙ß]ù_¯¬ßt+#ı/ˆ˝U}uÀ=o¸h`z˙®°Ø—î≠5OâÃÎp°`ß‰›®¢_. KA6M∆€ÿêÍåßjƒSV«I„°†)j(
+ÜΩÂQππV4=–‚˛ôJ_|y;\Ÿ¢˛‰•Ùâs-‚˙q»f@œ÷Æ?ÍXìÇTÇHπ—Éá˛—æóH&æÒ˜ﬂ⁄w›µëÚêeYÇ |ËW‡º?î2Ωd‘T◊˝Ùß˜LM-<ˇ¸ÀÁŒˆ≠Yπ‚æÛ›/|˘s±@ÿŒÉõW]÷QΩÁŸ'JBE€∫√≥Ü_Üe!Æ&(ËE7©É¡"b«cã«Da\Ö WGyzâœÏ⁄‹ªÖS8ƒÛº¨"YÇ¢‰pIÖPªSåú*UocPÚkV„≥JCÉ≤Ò¶7÷^q=Ö+ßh°Ÿë©Á{fœﬁ+ΩäÁÓªˇΩßgCS}ΩW”]◊º Ä˙ﬁÄ˙r©wÅƒ„	Û55µœ?ˇb"û¯÷7ˇÁÔy,ïÕ^~Âï≥S3Â^UtHD(ﬂ‘µµ#÷h‰≠–ròãÎ:tY@¬AÛ!( BR"^bñÒ¨xA∆2–BjuLë◊OE…ÇúÕ∞√ aT•Ñ/9ÁÊô^Ãúù O
+–ÁÆ_Ø›—Ì5õ∂,fzº˛≥oûø˚ˇk(Ö√;vÌ8yÚ‰‘Ùƒæ¯ŸhUE*ï*èñ∏‹∫wÈÊÁ≤auMUÔ©”››õ˘´üˇ¸ø\\\|‚©GÔ˝ıÔÏ˘ÓÔ~ª“_·S¬6î’4
+‚ôŸåS‚	®$ÚT&π∞dUÛ™¿KLU±£®®œégO+°•bvfF !Üñ”‘@"`&∑U¿zujf—:[Çe~_áßkg” ZD r]®Ú ô\zÎ¿q=cèçO9êE™**£e˜ﬂÖ˝î∫ÉÉÉ5µ5œB Ñóòœ˝Pv¡–<À¥˙öÇAÌ•WîJy£h‹˚Û˚>ıŸO<Ùƒ#ÒL¶{S' $‚ıD=™Ügà	i «-îq¨¥có´ÚÚv˛§iLiæEií8çáCÑ∆B¿ d∞§%QûõÛ	∆≠;bwÏÏlÊ™ºÿ°îQ tÊ@x™ˇÃóæÙÂÆUÎv\∂„Ègü‚>_ ≠ﬂ∞#04<âD™™™(•~V˝˜èˇOÆ#õﬁ ÖçMLLwuÆÒ?˛Û?_|ÒÂœ‚S.?˝’Ø~˙ìü¨[’y‚x/cd˝∫ıBã8≥1 ˘í≥P$ã+:Ñπ&D£¬∫ÍêÍª∆í‚È,YØÇ¿S»(`Ñ àÎHä#”áÖU!‰Â]◊¶òGHF 0
+~¸√üˆıè\˜ë´ûy‚âŸ©‰∑˛˛Ø˙˙ŒF?ˇ˘œö¶1:2RY≠≠≠ ,cﬁ ıCa±l∞Â>Ÿâ”„„µ5uï—\°òKÊnº˘#7ﬁ|Û?ˇ”7Áf2ü˙Ãg∑lŸ¯≈/|qjj™ππ^ı¶eròÉ;ñ∑h–ía ‚¯<úÄ\â!≤˘/ A‰†À/©b  ¿	‚e/
+Ñå1Fƒêy˛˘ÁkjÎrŸ¸œÔ˘≈ˆÌ;%ÇƒE ˝˝7ÅúùõM%RııöW„∏ãæˇﬁ∑Ñ} ó‡¿ñ?´o¨	|ßNù…‰2]+V◊›w√ıΩΩ'<>62¶ÎzWÁ Ø|ıÎπ|°≥≥ıØˇÍœ"eBà»â<¿<$™DaPE 8N	2Ñ ä>@c @ÄÖCÑ∆cÄP∞îH™œ—∑é=¸¿£ÌÌÌœ>˝¸∑Ô¸÷Ëÿ0Të•ˆ]€—Ÿ™˙‹‹,c¨££]V«q	!xŸÌ˛_‰˝˘ ¿( Aƒêe)çÊrπ±±Qü◊s√ı◊G£eñeˇÓwèÏπ|Ôƒƒ4DÏ{wˇÔ_?aœ∆ÓBA?qÚT:ùÛ{Ω<Ü≤¿Û‚81¡à+Í∂¨(Ç¿C$IDàs	°åaå!ÇÈLB\,øº˜ÅÈ©yMı∫ÑæÒ˙·öÍÍl6W»ÁÆ∏bÉˆóø¸πXu¥P,ÃÃL{}æ¶¶&é«î≤wßﬁuêˇn¨Ä.gBó/%+‚ Uùã£#£ôtzÛñ«°ÛmˇÁ_ÓÒ¯‚““Ç?‡0Ã§s˜‹ÛÑ∏Œ∂∂õo∫È¬ƒ!§≤™¨∂>ñIÁUU±≤Ú  ëHÀä,¬0ìJ?˛ƒs…Dé0zı’{˚˚Ü*¢1ègÙä=ª∫∫:Èƒ◊æ˛•7º—÷÷¥Èˇ∂s6?Maﬂ›NómªüeÈTK◊
+-¥ÑîÉJ¢A„Ö¯‡Eo^5Ü´˝'åÒ 'I<x°@‚â4B1hC5 m)ÌnŸ∂X Œx®¥%!PNKÊ∞ôÃºìg&yÚÓ·	
+9O:‡vﬂdY"¡ÉZr÷Q„Ycµ«áõ3m≥€ä•›D"^≠V˝˛~^†€;ÏüÁÁ?LNÜÜÇccc8•Ä "9;3g†åÔ'&sY•TÆ‰vîwo'ÜnÖfÁæTQE‡˘Áœ∆∑∑wCAú¿äEu*<o∑;syµªÀÌÎÌã}OfsπTÙıztÄπÓ√˝Õ_õ≤ío5ã.…EQBCXÕéŒ‰Õú!ÉÓDí§«„u8…‰F4˙ïcyIræ~ı2'À6´«q®a·©ÍÍ*À∞£GyQPTô¢˝É°·≠‘fd1˙ÒS8ùNπ‹±ÿ¬¡“Ú ˙˙Ü´”!¢¡d*V*Ì˚⁄z≤œﬂì⁄˛I √ËÉÓﬁÍ/ñ [ôlπ\E≥$πHΩæñMÄπØsrÇ«yÌﬂ6!§i∆ÁÎQd5ïJ'÷‚F£ë„XÑ ƒú∞X-í‘yo‰~ﬁºù–pDÛ\jÂ≤Ù1,øâhUYXn™™LOœ<y¸à¢(õ›Y\Òz›Çx›—i1˛‘jM&C>üŸ ÏAr<Ôr]#ız"j8F4•˛'˜ÏÕSıbçıÏÌUYÆT~ãmm ê" @-◊?b±Ë“7≤≈‡ıt.ÁeßÛ∆b4⁄›%e“Ÿ›]ï$Iä àÃN>ìÕŸ¨bk´Ä!√Q°PêÛ2ÀqÀ’¸’«é…M˚_Z‘‡ÕÁØv·\∏óÖS5-óÑ+-\i—‡Jã Ìø8"
+endstream
+endobj
+11 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 595.280 841.890]
+/Parent 3 0 R
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 6940 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 796.354 Td /F1 12.0 Tf  [(variable: relacionf in )] TJ ET
+BT 136.988 796.354 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 767.669 Td /F2 12.0 Tf  [(519)] TJ ET
+BT 52.016 767.669 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 767.669 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 767.669 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 753.298 Td /F1 12.0 Tf  [(variable: relacionf in )] TJ ET
+BT 136.988 753.298 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 724.613 Td /F2 12.0 Tf  [(516)] TJ ET
+BT 52.016 724.613 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 724.613 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 724.613 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 710.242 Td /F1 12.0 Tf  [(variable: relacionf in )] TJ ET
+BT 136.988 710.242 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 681.557 Td /F2 12.0 Tf  [(513)] TJ ET
+BT 52.016 681.557 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 681.557 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 681.557 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 667.186 Td /F1 12.0 Tf  [(variable: relacionf in )] TJ ET
+BT 136.988 667.186 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 638.501 Td /F2 12.0 Tf  [(510)] TJ ET
+BT 52.016 638.501 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 638.501 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 638.501 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 624.130 Td /F1 12.0 Tf  [(variable: relacionf in )] TJ ET
+BT 136.988 624.130 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 595.445 Td /F2 12.0 Tf  [(493)] TJ ET
+BT 52.016 595.445 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 595.445 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 595.445 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 581.074 Td /F1 12.0 Tf  [(variable: separados in )] TJ ET
+BT 141.656 581.074 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 552.389 Td /F2 12.0 Tf  [(490)] TJ ET
+BT 52.016 552.389 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 552.389 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 552.389 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 538.018 Td /F1 12.0 Tf  [(variable: separados in )] TJ ET
+BT 141.656 538.018 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 509.333 Td /F2 12.0 Tf  [(451)] TJ ET
+BT 52.016 509.333 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 509.333 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 509.333 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 494.962 Td /F1 12.0 Tf  [(variable: ocupacion_madre in )] TJ ET
+BT 179.648 494.962 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 466.277 Td /F2 12.0 Tf  [(448)] TJ ET
+BT 52.016 466.277 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 466.277 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 466.277 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 451.906 Td /F1 12.0 Tf  [(variable: ocupacion_madre in )] TJ ET
+BT 179.648 451.906 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 423.221 Td /F2 12.0 Tf  [(445)] TJ ET
+BT 52.016 423.221 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 423.221 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 423.221 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 408.850 Td /F1 12.0 Tf  [(variable: ocupacion_madre in )] TJ ET
+BT 179.648 408.850 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 380.165 Td /F2 12.0 Tf  [(442)] TJ ET
+BT 52.016 380.165 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 380.165 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 380.165 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 365.794 Td /F1 12.0 Tf  [(variable: ocupacion_madre in )] TJ ET
+BT 179.648 365.794 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 337.109 Td /F2 12.0 Tf  [(432)] TJ ET
+BT 52.016 337.109 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 337.109 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 337.109 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 322.738 Td /F1 12.0 Tf  [(variable: estado_madre in )] TJ ET
+BT 160.988 322.738 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 294.053 Td /F2 12.0 Tf  [(429)] TJ ET
+BT 52.016 294.053 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 294.053 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 294.053 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 279.682 Td /F1 12.0 Tf  [(variable: estado_madre in )] TJ ET
+BT 160.988 279.682 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 250.997 Td /F2 12.0 Tf  [(426)] TJ ET
+BT 52.016 250.997 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 250.997 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 250.997 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 236.626 Td /F1 12.0 Tf  [(variable: estado_madre in )] TJ ET
+BT 160.988 236.626 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 207.941 Td /F2 12.0 Tf  [(423)] TJ ET
+BT 52.016 207.941 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 207.941 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 207.941 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 193.570 Td /F1 12.0 Tf  [(variable: estado_madre in )] TJ ET
+BT 160.988 193.570 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 164.885 Td /F2 12.0 Tf  [(420)] TJ ET
+BT 52.016 164.885 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 164.885 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 164.885 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 150.514 Td /F1 12.0 Tf  [(variable: estado_madre in )] TJ ET
+BT 160.988 150.514 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 121.829 Td /F2 12.0 Tf  [(410)] TJ ET
+BT 52.016 121.829 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 121.829 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 121.829 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 107.458 Td /F1 12.0 Tf  [(variable: nivel_madre in )] TJ ET
+BT 154.328 107.458 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 78.773 Td /F2 12.0 Tf  [(407)] TJ ET
+BT 52.016 78.773 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 78.773 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 78.773 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 64.402 Td /F1 12.0 Tf  [(variable: nivel_madre in )] TJ ET
+BT 154.328 64.402 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 35.717 Td /F2 12.0 Tf  [(404)] TJ ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 595.280 841.890]
+/Parent 3 0 R
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 7131 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 796.469 Td /F1 12.0 Tf  [(on line )] TJ ET
+BT 70.016 796.469 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 435.704 796.469 Td /F1 12.0 Tf  [(: Undefined variable: )] TJ ET
+BT 34.016 782.098 Td /F1 12.0 Tf  [(nivel_madre in )] TJ ET
+BT 109.340 782.098 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 753.413 Td /F2 12.0 Tf  [(401)] TJ ET
+BT 52.016 753.413 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 753.413 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 753.413 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 739.042 Td /F1 12.0 Tf  [(variable: nivel_madre in )] TJ ET
+BT 154.328 739.042 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 710.357 Td /F2 12.0 Tf  [(398)] TJ ET
+BT 52.016 710.357 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 710.357 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 710.357 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 695.986 Td /F1 12.0 Tf  [(variable: nivel_madre in )] TJ ET
+BT 154.328 695.986 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 667.301 Td /F2 12.0 Tf  [(395)] TJ ET
+BT 52.016 667.301 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 667.301 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 667.301 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 652.930 Td /F1 12.0 Tf  [(variable: nivel_madre in )] TJ ET
+BT 154.328 652.930 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 624.245 Td /F2 12.0 Tf  [(385)] TJ ET
+BT 52.016 624.245 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 624.245 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 624.245 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 609.874 Td /F1 12.0 Tf  [(variable: ocupacion_padre in )] TJ ET
+BT 176.312 609.874 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 581.189 Td /F2 12.0 Tf  [(382)] TJ ET
+BT 52.016 581.189 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 581.189 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 581.189 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 566.818 Td /F1 12.0 Tf  [(variable: ocupacion_padre in )] TJ ET
+BT 176.312 566.818 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 538.133 Td /F2 12.0 Tf  [(379)] TJ ET
+BT 52.016 538.133 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 538.133 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 538.133 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 523.762 Td /F1 12.0 Tf  [(variable: ocupacion_padre in )] TJ ET
+BT 176.312 523.762 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 495.077 Td /F2 12.0 Tf  [(376)] TJ ET
+BT 52.016 495.077 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 495.077 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 495.077 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 480.706 Td /F1 12.0 Tf  [(variable: ocupacion_padre in )] TJ ET
+BT 176.312 480.706 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 452.021 Td /F2 12.0 Tf  [(366)] TJ ET
+BT 52.016 452.021 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 452.021 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 452.021 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 437.650 Td /F1 12.0 Tf  [(variable: estado_padre in )] TJ ET
+BT 157.652 437.650 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 408.965 Td /F2 12.0 Tf  [(363)] TJ ET
+BT 52.016 408.965 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 408.965 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 408.965 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 394.594 Td /F1 12.0 Tf  [(variable: estado_padre in )] TJ ET
+BT 157.652 394.594 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 365.909 Td /F2 12.0 Tf  [(360)] TJ ET
+BT 52.016 365.909 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 365.909 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 365.909 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 351.538 Td /F1 12.0 Tf  [(variable: estado_padre in )] TJ ET
+BT 157.652 351.538 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 322.853 Td /F2 12.0 Tf  [(357)] TJ ET
+BT 52.016 322.853 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 322.853 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 322.853 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 308.482 Td /F1 12.0 Tf  [(variable: estado_padre in )] TJ ET
+BT 157.652 308.482 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 279.797 Td /F2 12.0 Tf  [(354)] TJ ET
+BT 52.016 279.797 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 279.797 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 279.797 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 265.426 Td /F1 12.0 Tf  [(variable: estado_padre in )] TJ ET
+BT 157.652 265.426 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 236.741 Td /F2 12.0 Tf  [(344)] TJ ET
+BT 52.016 236.741 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 236.741 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 236.741 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 222.370 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 222.370 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 193.685 Td /F2 12.0 Tf  [(341)] TJ ET
+BT 52.016 193.685 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 193.685 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 193.685 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 179.314 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 179.314 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 150.629 Td /F2 12.0 Tf  [(338)] TJ ET
+BT 52.016 150.629 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 150.629 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 150.629 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 136.258 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 136.258 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 107.573 Td /F2 12.0 Tf  [(335)] TJ ET
+BT 52.016 107.573 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 107.573 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 107.573 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 93.202 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 93.202 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.016 64.517 Td /F2 12.0 Tf  [(332)] TJ ET
+BT 52.016 64.517 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 64.517 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 64.517 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 50.146 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 50.146 Td /F2 12.0 Tf  [(Notice)] TJ ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 595.280 841.890]
+/Parent 3 0 R
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 8424 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 767.669 Td /F2 12.0 Tf  [(329)] TJ ET
+BT 52.016 767.669 Td /F1 12.0 Tf  [( on line )] TJ ET
+BT 91.016 767.669 Td /F2 12.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 456.704 767.669 Td /F1 12.0 Tf  [(: Undefined )] TJ ET
+BT 34.016 753.298 Td /F1 12.0 Tf  [(variable: nivel_padre in )] TJ ET
+BT 150.992 753.298 Td /F2 12.0 Tf  [(Notice)] TJ ET
+BT 34.766 739.452 Td /F2 10.0 Tf  [(DOCUMENTOS)] TJ ET
+BT 36.266 722.386 Td /F2 9.0 Tf  [(PromociÛn: )] TJ ET
+BT 36.266 720.898 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 720.898 Td /F1 9.0 Tf  [(: Undefined variable: promocion in )] TJ ET
+BT 36.266 713.473 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 710.491 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 710.491 Td /F2 9.0 Tf  [(542)] TJ ET
+BT 313.532 722.386 Td /F2 9.0 Tf  [(Informe de notas: )] TJ ET
+BT 313.532 720.898 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 720.898 Td /F1 9.0 Tf  [(: Undefined variable: notas in )] TJ ET
+BT 313.532 713.473 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 710.491 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 710.491 Td /F2 9.0 Tf  [(543)] TJ ET
+BT 590.798 722.386 Td /F2 9.0 Tf  [(C.I Padre: )] TJ ET
+BT 590.798 720.898 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 720.898 Td /F1 9.0 Tf  [(: Undefined variable: cedula1 in )] TJ ET
+BT 590.798 713.473 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 710.491 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 710.491 Td /F2 9.0 Tf  [(544)] TJ ET
+BT 36.266 687.991 Td /F2 9.0 Tf  [(Promocion: )] TJ ET
+BT 36.266 686.503 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 686.503 Td /F1 9.0 Tf  [(: Undefined variable: promocion2 in )] TJ ET
+BT 36.266 679.078 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 676.096 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 676.096 Td /F2 9.0 Tf  [(547)] TJ ET
+BT 313.532 687.991 Td /F2 9.0 Tf  [(Partida de nacimiento: )] TJ ET
+BT 313.532 686.503 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 686.503 Td /F1 9.0 Tf  [(: Undefined variable: partida in )] TJ ET
+BT 313.532 679.078 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 676.096 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 676.096 Td /F2 9.0 Tf  [(548)] TJ ET
+BT 590.798 687.991 Td /F2 9.0 Tf  [(C.I. Madre: )] TJ ET
+BT 590.798 686.503 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 686.503 Td /F1 9.0 Tf  [(: Undefined variable: cedula2 in )] TJ ET
+BT 590.798 679.078 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 676.096 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 676.096 Td /F2 9.0 Tf  [(549)] TJ ET
+BT 36.266 653.596 Td /F2 9.0 Tf  [(Promocion: )] TJ ET
+BT 36.266 652.108 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 652.108 Td /F1 9.0 Tf  [(: Undefined variable: promocion3 in )] TJ ET
+BT 36.266 644.683 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 641.701 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 641.701 Td /F2 9.0 Tf  [(552)] TJ ET
+BT 313.532 653.596 Td /F2 9.0 Tf  [(Fotos: )] TJ ET
+BT 313.532 652.108 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 652.108 Td /F1 9.0 Tf  [(: Undefined variable: fotos in )] TJ ET
+BT 313.532 644.683 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 641.701 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 641.701 Td /F2 9.0 Tf  [(553)] TJ ET
+BT 590.798 653.596 Td /F2 9.0 Tf  [(C.I Estudiante: )] TJ ET
+BT 590.798 652.108 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 652.108 Td /F1 9.0 Tf  [(: Undefined variable: cedula3 in )] TJ ET
+BT 590.798 644.683 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 641.701 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 641.701 Td /F2 9.0 Tf  [(554)] TJ ET
+BT 36.266 613.258 Td /F2 9.0 Tf  [(Planilla de Luz: )] TJ ET
+BT 99.527 613.258 Td /F1 9.0 Tf  [( l)] TJ ET
+BT 313.532 613.258 Td /F2 9.0 Tf  [(Carnet de vacunas: )] TJ ET
+BT 390.275 613.258 Td /F1 9.0 Tf  [( l)] TJ ET
+BT 590.798 619.201 Td /F2 9.0 Tf  [(C. no deuda: )] TJ ET
+BT 590.798 617.713 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 617.713 Td /F1 9.0 Tf  [(: Undefined variable: certificado1 in )] TJ ET
+BT 590.798 610.288 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 607.306 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 607.306 Td /F2 9.0 Tf  [(559)] TJ ET
+BT 36.266 584.806 Td /F2 9.0 Tf  [(Informe econÛmico: )] TJ ET
+BT 36.266 583.318 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 583.318 Td /F1 9.0 Tf  [(: Undefined variable: informe2 in )] TJ ET
+BT 36.266 575.893 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 572.911 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 572.911 Td /F2 9.0 Tf  [(562)] TJ ET
+BT 313.532 584.806 Td /F2 9.0 Tf  [(Croquis: )] TJ ET
+BT 313.532 583.318 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 583.318 Td /F1 9.0 Tf  [(: Undefined variable: croquis in )] TJ ET
+BT 313.532 575.893 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 572.911 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 572.911 Td /F2 9.0 Tf  [(563)] TJ ET
+BT 590.798 584.806 Td /F2 9.0 Tf  [(C. MatrÌcula: )] TJ ET
+BT 590.798 583.318 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 583.318 Td /F1 9.0 Tf  [(: Undefined variable: certificado2 in )] TJ ET
+BT 590.798 575.893 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 572.911 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 572.911 Td /F2 9.0 Tf  [(564)] TJ ET
+BT 34.766 550.395 Td /F2 10.0 Tf  [(PROCEDENCIA)] TJ ET
+BT 36.266 533.328 Td /F2 9.0 Tf  [(Nombre del plantel: )] TJ ET
+BT 36.266 531.840 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 531.840 Td /F1 9.0 Tf  [(: Undefined variable: nombre_plantel in )] TJ ET
+BT 36.266 524.415 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 521.433 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 521.433 Td /F2 9.0 Tf  [(574)] TJ ET
+BT 313.532 533.328 Td /F2 9.0 Tf  [(Plantel: )] TJ ET
+BT 313.532 531.840 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 531.840 Td /F1 9.0 Tf  [(: Undefined variable: tipo_plantel in )] TJ ET
+BT 313.532 524.415 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 521.433 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 521.433 Td /F2 9.0 Tf  [(575)] TJ ET
+BT 36.266 498.933 Td /F2 9.0 Tf  [(Comporramiento: )] TJ ET
+BT 36.266 497.445 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 60.755 497.445 Td /F1 9.0 Tf  [(: Undefined variable: comportamiento in )] TJ ET
+BT 36.266 490.020 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 36.266 487.038 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 63.266 487.038 Td /F2 9.0 Tf  [(579)] TJ ET
+BT 313.532 498.933 Td /F2 9.0 Tf  [(Promedio: )] TJ ET
+BT 313.532 497.445 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 338.021 497.445 Td /F1 9.0 Tf  [(: Undefined variable: promedio in )] TJ ET
+BT 313.532 490.020 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 313.532 487.038 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 340.532 487.038 Td /F2 9.0 Tf  [(580)] TJ ET
+BT 590.798 498.933 Td /F2 9.0 Tf  [(Escala Cualitativa: )] TJ ET
+BT 590.798 497.445 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 615.287 497.445 Td /F1 9.0 Tf  [(: Undefined variable: escala in )] TJ ET
+BT 590.798 490.020 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 590.798 487.038 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 617.798 487.038 Td /F2 9.0 Tf  [(581)] TJ ET
+BT 868.064 498.933 Td /F2 9.0 Tf  [(Examen de admisiÛn: )] TJ ET
+BT 868.064 497.445 Td /F2 9.0 Tf  [(Notice)] TJ ET
+BT 892.553 497.445 Td /F1 9.0 Tf  [(: Undefined variable: examen in )] TJ ET
+BT 868.064 490.020 Td /F2 9.0 Tf  [(C:\\xampp\\htdocs\\JulioPenaBermeo\\vistas\\Reportes\\Ficha_Alumno.php)] TJ ET
+BT 868.064 487.038 Td /F1 9.0 Tf  [(on line )] TJ ET
+BT 895.064 487.038 Td /F2 9.0 Tf  [(582)] TJ ET
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000332 00000 n 
+0000000369 00000 n 
+0000000498 00000 n 
+0000000601 00000 n 
+0000010787 00000 n 
+0000010896 00000 n 
+0000011004 00000 n 
+0000026741 00000 n 
+0000026846 00000 n 
+0000033839 00000 n 
+0000033944 00000 n 
+0000041128 00000 n 
+0000041233 00000 n 
+trailer
+<<
+/Size 17
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+49710
+%%EOF
