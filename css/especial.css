@@ -1,0 +1,11 @@
+body{
+background-image: url("../images/especial.jpg"); 
+background-repeat: no-repeat;
+background-size: 1350px;
+}
+.trans{
+	margin: 0 auto;
+	width: 1350px;
+	height: 700px;
+	background-image: url('../images/transparencia.png');
+}
