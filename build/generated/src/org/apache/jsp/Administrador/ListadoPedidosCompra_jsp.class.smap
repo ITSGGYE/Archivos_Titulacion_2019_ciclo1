@@ -1,0 +1,16 @@
+SMAP
+ListadoPedidosCompra_jsp.java
+JSP
+*S JSP
+*F
++ 0 ListadoPedidosCompra.jsp
+Administrador/ListadoPedidosCompra.jsp
+*L
+1,130:48
+132,3:180
+134,6:183
+140,5:189,3
+145,2:204
+147:206,3
+148,62:209
+*E
