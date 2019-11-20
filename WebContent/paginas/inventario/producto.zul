@@ -1,0 +1,36 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.inventario.gestor.ProductoGestor')" border="none" height="100%">
+
+<groupbox height="100%"> 
+	<caption label="Administrar Producto"/>
+	<toolbar><toolbarbutton image="/common/images/16X16/new.png" label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsProductos)" selectedItem="@bind(vm.objProducto)" mold="paging" pageSize="10">
+	<listhead>
+		<listheader label="Código Producto" sort="auto" width="10%"/>
+		<listheader label="Nombre Producto" sort="auto" width="30%"/>
+		<listheader label="Tipo Producto" sort="auto" width="30%"/>
+		<listheader label="Medida" sort="auto" width="10%"/>
+		<listheader label="Estado" sort="auto" width="10%"/>
+	</listhead>
+	<template name="model" var="pro">
+		<listitem>
+			<listcell label="@load(pro.idProducto)" />
+			<listcell label="@load(pro.nombre)" />
+			<listcell label="@load(pro.inTipoProducto.nombre)" />
+			<listcell label="@load(pro.inMedida.descripcion)" />
+			<listcell label="@load(pro.estado eq 'A'?'Activo':'Inactivo')" />
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+	
+
+</window>
+</zk>

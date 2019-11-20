@@ -1,0 +1,43 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.inventario.gestor.TarifarioGestor')" border="none" height="100%">
+<groupbox height="100%"> 
+	<caption label="Administrar Tarifario"/>
+	<toolbar><toolbarbutton label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	
+	<div height="100px" align="center">
+	<separator spacing="30px"></separator>
+		<label value="Selección Producto: " /><combobox readonly="true" width="200px" model="@load(vm.lsProductos)" selectedItem="@bind(vm.objProducto)" onChange="@command('cargarKardex')">
+										<template name="model" var="prd">
+											<comboitem label="@load(prd.nombre)" value="@load(prd)" style="text-transform: uppercase;"/>
+										</template>
+										
+									</combobox>
+	</div>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsTarifario)" selectedItem="@bind(vm.objTarifario)">
+	<listhead>
+		<listheader label="Id Tarifario" sort="auto" width="20%"/>
+		<listheader label="Valor Venta" sort="auto" width="20%"/>
+		<listheader label="Paga Iva" sort="auto" width="10%"/>
+		<listheader label="Estaado" sort="auto" width="10%"/>
+	</listhead>
+	<template name="model" var="tar">
+		<listitem>
+			<listcell label="@load(tar.idTarifario)" />
+			<listcell label="@load(tar.valorVenta)" />
+			<listcell label="@load(tar.pagaIva eq 'S'?'Si':'No')" />
+			
+			<listcell label="@load(tar.estado eq 'A'?'Activo':'Inactivo')" />
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+</window>
+</zk>

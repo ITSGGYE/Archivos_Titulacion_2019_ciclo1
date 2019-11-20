@@ -1,0 +1,39 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.reportes.VentasGestor')" border="none" height="100%" width="100%">
+
+<groupbox height="100%"> 
+	<caption label="Reporte de Ventas por Fecha"/>
+	<div align="center">
+		
+			<grid width="50%" style="border:3px solid #dec6c6; border-radius:10px;">
+				<columns>
+					<column label="" width="25%"/>
+					<column label="" width="25%"/>
+					<column label="" width="25%" />
+					<column label="" width="25%"/>
+				</columns>
+				<rows>
+					<row align="right">	
+						<label value="Fecha Inicio:" /><datebox value="@bind(vm.fechaInicio)"/>
+					</row>
+					<row align="right">	
+						<label value="Fecha:" /><datebox value="@bind(vm.fechaFin)"/>
+					</row>
+					
+				</rows>
+			</grid>
+		
+	<separator spacing="30px"/>
+	<div align="center">
+		<button label="Reporte" onClick="@command('generar')" image="/common/images/report.png"/>
+	</div>
+	</div>
+	<div height="500px">
+		<jasperreport id="report"></jasperreport>
+	</div>
+</groupbox>	
+
+</window>
+</zk>

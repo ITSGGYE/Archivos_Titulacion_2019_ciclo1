@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+.z-label {
+	font: Arial;
+	font-weight:bold;
+	font-size: 11px; 
+	color:#123456;
+}
+
+.label-normal {
+	font-family : arial;
+	font-size: 12px; 
+}
+
+.label {
+	color: black;
+	font-family:"Verdana",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.obligatorio {	
+	color: #D61515;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+tr.z-row td.z-row-inner, tr.z-row .z-cell {
+	background: white;
+	border-top: none; border-left: none; border-right: none;
+	border-bottom: none;
+}
+
+td.z-row-inner {
+	padding:0 5px;
+}
+
+div.z-grid {
+	background: white; 
+	border-left:none; 
+	border-right:none; 
+	border-top:none; 
+	border-bottom:none
+}
+
+
+.z-cell {
+	padding-left: 10px;
+}
+
+.z-toolbar-panel {
+	background-color: #A1C7EA;
+	background: rgb(153,194,229); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(153,194,229,1) 51%, rgba(109,179,242,1) 69%, rgba(97,147,221,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(51%,rgba(153,194,229,1)), color-stop(69%,rgba(109,179,242,1)), color-stop(100%,rgba(97,147,221,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(153,194,229,1) 51%,rgba(109,179,242,1) 69%,rgba(97,147,221,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(153,194,229,1) 51%,rgba(109,179,242,1) 69%,rgba(97,147,221,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(153,194,229,1) 51%,rgba(109,179,242,1) 69%,rgba(97,147,221,1) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(153,194,229,1) 51%,rgba(109,179,242,1) 69%,rgba(97,147,221,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99c2e5', endColorstr='#6193dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+}
+
+.z-toolbarbutton-cnt { 
+	font:caption;		
+	font-weight:bold; 
+	font-size:13px;
+}
+
+
+
+.z-menu-popup-cnt .z-menu a.z-menu-cnt {
+	font: caption;		
+	font-weight:bold;
+	font-size: 13px;
+	color: #102F59;
+}
+
+.z-menu-popup-cnt .z-menu-item a.z-menu-item-cnt {
+	font: caption;		
+	font-weight:bold;
+	font-size: 13px;
+	color: #102F59;
+}

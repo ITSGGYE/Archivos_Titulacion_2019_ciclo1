@@ -1,0 +1,130 @@
+<?page title=".:. Agripublic .:." contentType="text/html;charset=UTF-8"?>
+<zk xmlns:h="xhtml">
+<?meta charset="UTF-8" ?>
+<?meta name="viewport" content="width=device-width, initial-scale=1" ?> 
+
+	
+
+<!--===============================================================================================-->
+	<style src="/common/vendor/bootstrap/css/bootstrap.min.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/fonts/font-awesome-4.7.0/css/font-awesome.min.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/fonts/iconic/css/material-design-iconic-font.min.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/vendor/animate/animate.css"></style>
+<!--===============================================================================================-->	
+	<style src="/common/vendor/css-hamburgers/hamburgers.min.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/vendor/animsition/css/animsition.min.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/vendor/select2/select2.min.css"></style>
+<!--===============================================================================================-->	
+	<style src="/common/vendor/daterangepicker/daterangepicker.css"></style>
+<!--===============================================================================================-->
+	<style src="/common/css/util.css"></style>
+	<style src="/common/css/main.css"></style>
+<!--===============================================================================================-->
+
+
+<script>
+zk.afterMount(function(){
+	$('.usurFoco').focus();
+
+});
+</script>
+
+<style>
+	body {
+	        border: 0 none !important;
+			margin: 0 !important;
+			 padding: 0 !important;
+			
+			
+			 
+        }
+        .miboton{
+        	background: #c7c7c7;
+        }
+        .wrap-login100{
+        	background-image: linear-gradient(to bottom, white,#123456);
+        }
+</style>
+
+
+<div class="limiter" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.IndexGestor')" width="100%" height="100%">
+
+
+<!--===============================================================================================-->
+	<?script src="/common/vendor/jquery/jquery-3.2.1.min.js" ?>
+<!--===============================================================================================-->
+	<?script src="/common/vendor/animsition/js/animsition.min.js"?>
+<!--===============================================================================================-->
+	<?script src="/common/vendor/bootstrap/js/popper.js"?>
+	<?script src="/common/vendor/bootstrap/js/bootstrap.min.js"?>
+<!--===============================================================================================-->
+	<?script src="/common/vendor/select2/select2.min.js"?>
+<!--===============================================================================================-->
+	<?script src="/common/vendor/daterangepicker/moment.min.js"?>
+	<?script src="/common/vendor/daterangepicker/daterangepicker.js"?>
+<!--===============================================================================================-->
+	<?script src="/common/vendor/countdowntime/countdowntime.js"?>
+<!--===============================================================================================-->
+	<?script src="/common/js/main.js"?>
+<!--===============================================================================================-->	
+
+		<h:div class="container-login100">
+			<h:div class="wrap-login100">
+				
+					<h:span class="login100-form-title p-b-15">
+						Bienvenido
+					</h:span>
+					<h:span class="login100-form-title p-b-48">
+						 <h:i class="zmdi zmdi-font"></h:i> 
+						  <h:i >Acripublic</h:i> 
+						
+					</h:span>
+
+					<h:div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						<h:input id="txtUsuario" style="color:#0b0a19;font-weight:bold;text-transform: uppercase;"  class="input100 usurFoco" type="text" name="text" value="@bind(vm.objUsuario.idUsuario)" focus="true"></h:input>
+						<h:span class="focus-input100" data-placeholder="Usuario"></h:span>
+					</h:div>
+
+					<h:div class="wrap-input100 validate-input" data-validate="Enter password">
+						<h:span class="btn-show-pass">
+							<h:i class="zmdi zmdi-eye"></h:i>
+						</h:span>
+						<h:input class="input100" style="color:#0b0a19;font-weight:bold;" type="password" onOK="@command('ingresar')" value="@bind(vm.objUsuario.clave)"></h:input>
+						<h:span class="focus-input100" data-placeholder="Password"></h:span>
+					</h:div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn miboton"></div>
+							<h:button class="login100-form-btn"  onClick="@command('ingresar')" onOK="@command('ingresar')">
+								Login
+							</h:button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-115">
+						<h:span class="txt1">
+							Olvido Su Contrasena?
+						</h:span>
+
+						<a class="txt2" href="#">
+							Click Aqui
+						</a>
+					</div>
+				
+			</h:div>
+		</h:div>
+	</div>
+	
+
+	<h:div id="dropDownSelect1"></h:div>
+	
+	
+
+</zk>

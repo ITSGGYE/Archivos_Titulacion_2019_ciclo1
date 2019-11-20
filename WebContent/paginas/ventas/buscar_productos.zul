@@ -1,0 +1,28 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window id="winBuscarProducto" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.ventas.gestor.BuscarProductosGestor')" border="normal" width="80%" height="70%" title="Buscar Producto" closable="true">
+
+	<listbox model="@load(vm.lsProductos)" selectedItem="@bind(vm.objProducto)" onDoubleClick="@command('aceptar')">
+	<listhead>
+		<listheader label="Código" sort="auto" width="10%" align="center"/>
+		<listheader label="Nombre Producto" sort="auto" width="60%" align="center"/>
+		<listheader label="Precio" sort="auto" width="15%" align="center"/>
+		<listheader label="Stock" sort="auto" width="15%" align="center"/>
+		
+	</listhead>
+	<template name="model" var="pro">
+		<listitem>
+			<listcell label="@load(pro.idProducto)" style="text-align:center;"/>
+			<listcell label="@load(pro.nombre)" style="text-align:left;"/>
+			<listcell label="@load(pro.precio)" style="text-align:right;"/>
+			<listcell label="@load(pro.stock)" style="text-align:right;"/>
+		</listitem>
+	</template>
+	
+	
+</listbox>
+
+
+</window>
+</zk>

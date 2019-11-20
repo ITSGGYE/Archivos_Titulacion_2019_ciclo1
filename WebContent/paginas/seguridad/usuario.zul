@@ -1,0 +1,38 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.UsuarioGestor')" border="none" height="100%">
+
+<groupbox height="100%"> 
+	<caption label="Administra Usuarios"/>
+	<toolbar><toolbarbutton image="/common/images/16X16/new.png" label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsUsuarios)" selectedItem="@bind(vm.objUsuario)">
+	<listhead>
+		<listheader label="Id Usuario" sort="auto" width="10%"/>
+		<listheader label="Nombres" sort="auto" width="30%"/>
+		<listheader label="Apellidos" sort="auto" width="30%"/>
+		<listheader label="email" sort="auto" width="10%"/>
+		<listheader label="Telefono" sort="auto" width="10%"/>
+		<listheader label="Celular" sort="auto" width="10%"/>
+		<listheader label="Estado" sort="auto" width="10%"/>
+	</listhead>
+	<template name="model" var="usr">
+		<listitem>
+			<listcell label="@load(usr.idUsuario)" />
+			<listcell label="@load(usr.sePersona.nombres)" />
+			<listcell label="@load(usr.sePersona.apellidos)" />
+			<listcell label="@load(usr.email)" />
+			<listcell label="@load(usr.telefono)" />
+			<listcell label="@load(usr.celular)" />
+			<listcell label="@load(usr.estado eq 'A'?'Activo':'Inactivo')" />
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+</window>
+</zk>

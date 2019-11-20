@@ -1,0 +1,65 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window id="winUsuarioModal" title="Administrar Usuarios" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.UsuarioModalGestor')" border="normal" height="60%" width="70%" closable="true">
+
+<groupbox height="100%"> 
+	<caption label="Administra Usuario"/>
+	<toolbar>
+		<toolbarbutton label="Guardar" onClick="@command('guardar')"  image="/common/images/16X16/save.png" ></toolbarbutton>
+		<toolbarbutton label="Cerrar" onClick="@command('cerrarVentana')" image="/common/images/16X16/close_x.png" ></toolbarbutton>
+	</toolbar>
+	
+	<grid>
+		<columns>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+		</columns>
+		<rows>
+			
+			<row spans="1,3">	
+				<label value="Nombre Completo" />
+				<combobox focus="true" width="90%" model="@load(vm.lsPersona)" readonly="true" value="@bind(vm.objUsuario.sePersona.apellidos)" selectedItem="@bind(vm.objUsuario.sePersona)">
+					<template name="model" var="per">
+						<comboitem label="@load(vm.concat(per.nombres,per.apellidos))" value="@load(per)" style="text-transform: uppercase;"/>
+					</template>
+				</combobox>
+				
+			</row>
+			<row spans="1,3">	
+				
+				<label value="IdUsuario" />
+				<textbox width="100px" value="@bind(vm.objUsuario.idUsuario)" />
+			</row>
+			<row spans="1,1,1,1">	
+				<label value="Clave" />
+				<textbox width="90%"  value="@bind(vm.objUsuario.clave)"/>
+				<label value="Confirmar Clave" />
+				<textbox width="90%"  value="@bind(vm.objUsuario.clave)"/>
+				
+			</row>
+			<row spans="1,3">	
+				
+				<label value="Email" />
+				<textbox width="90%" value="@bind(vm.objUsuario.email)" />
+			</row>
+			<row spans="1,1,1,1">	
+				<label value="Telefono" />
+				<textbox  value="@bind(vm.objUsuario.telefono)" />
+				<label value="Celular" />
+				<textbox  value="@bind(vm.objUsuario.celular)" />
+				
+			</row>
+			<row spans="1,1,1,1">	
+			<label value="Telefono" />
+			<combobox selectedItem="@bind(vm.objUsuario.estado)" readonly="true">
+					<comboitem value="A" label="Activo"/><comboitem label="Inactivo" value="I"/>
+				</combobox>
+			</row>
+		</rows>
+	</grid>
+</groupbox>	
+</window>
+</zk>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="detalle_factura" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="3746d824-d6cf-46a5-a97e-f2834033562f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="p_factura" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from detalle_factura f, in_producto p where f.id_producto=p.id_producto
+and p.estado='A'
+and f.id_factura=$P{p_factura}]]>
+	</queryString>
+	<field name="id_detalle_factura" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_factura" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_producto" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cantidad" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="precio_unitario" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="estado" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="detalle_facturacol" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_tipo_producto" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_medida" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fecha_creacion" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usuario_creacion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fecha_actualizacion" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usuario_actualizacion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<variable name="cantidad_1" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{cantidad}]]></variableExpression>
+	</variable>
+	<variable name="iva" class="java.lang.Double">
+		<variableExpression><![CDATA[($V{cantidad_1}*12)/100]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="22">
+			<rectangle>
+				<reportElement x="0" y="0" width="78" height="20" uuid="3151869c-4b26-4ffc-aae8-f107ffaadbe2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="78" y="0" width="277" height="20" uuid="dbd86b6f-d971-4a50-acfb-b1ca28dadb6d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="0" width="100" height="20" uuid="430ca311-f5f5-4769-9ac8-6c3fa4b3cf97"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="455" y="0" width="100" height="20" uuid="0519175e-7167-4eec-a8f5-1817840f6a35"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="2" width="78" height="20" uuid="5c0f99db-4e2a-4196-bda1-91f4b7d2fe45"/>
+				<text><![CDATA[Item]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="78" y="2" width="277" height="20" uuid="0ac5dbc1-92c8-414e-88bb-94056cbc7d81"/>
+				<text><![CDATA[Nombre Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="0" width="100" height="20" uuid="c6aaabfa-ade3-4d52-992c-e6b60b27bc26"/>
+				<text><![CDATA[Cantidad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="2" width="100" height="20" uuid="e25acc80-d1de-4ac8-9744-00c902a8738b"/>
+				<text><![CDATA[Precio]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<rectangle>
+				<reportElement x="455" y="0" width="100" height="20" uuid="30330e79-9b45-4bcb-8927-643a0e90f6d4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="0" width="100" height="20" uuid="9282df79-48f7-4137-b20d-4f3611be079b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="78" y="0" width="277" height="20" uuid="0eae6903-f4bb-4ef1-9e7b-d9027fc50785"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="78" height="20" uuid="3ec8415c-0ca3-4dc1-b4de-79116b06eaa2"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="78" height="20" uuid="38a44355-3c9b-4150-9412-37527f956411"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{id_detalle_factura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="78" y="0" width="277" height="20" uuid="fa201e03-4836-49f0-b1ef-7f606d9336b2"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="100" height="20" uuid="d8300856-ef37-46e1-b6dd-338805bac7f3"/>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="17007690-520c-46b1-8a65-1f47c0f6a5cb"/>
+				<textFieldExpression><![CDATA[$F{precio_unitario}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

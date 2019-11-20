@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--
+	Created by ZK Studio
+-->
+
+<zk>
+<system-config>
+	<disable-event-thread>false</disable-event-thread>
+</system-config>
+
+	<session-config>
+	<session-timeout>600</session-timeout>
+    <device-type>ajax</device-type>   
+    <timeout-uri>/index.zul?error=su sesion ha caducado</timeout-uri>   
+</session-config>
+<client-config>
+	<keep-across-visits>true</keep-across-visits>
+</client-config> 
+
+<library-property>
+        <name>org.zkoss.zul.progressbox.position</name>
+        <value>center,center</value>
+    </library-property>
+    <library-property>
+        <name>org.zkoss.zul.progressbox.mask</name>
+        <value>true</value>
+    </library-property>
+     
+    <desktop-config>
+		<theme-uri>/common/css/zk.css</theme-uri>
+	</desktop-config>
+	
+	<system-config>
+		<max-upload-size>-1</max-upload-size>
+	</system-config>
+
+<library-property>
+    <name>org.zkoss.zul.theme.fontSizeM</name>
+    <value>12px</value>
+</library-property>
+<library-property>
+    <name>org.zkoss.zul.theme.fontSizeS</name>
+    <value>10px</value>
+</library-property>
+<library-property>
+    <name>org.zkoss.zul.theme.fontSizeXS</name>
+    <value>9px</value>
+</library-property>
+
+<library-property>
+    <name>org.zkoss.theme.preferred</name>
+    <value>silvertail</value> <!-- or silvertail, atlantic, sapphire -->
+</library-property>
+
+<library-property>
+		<name>org.zkoss.zkmax.tablet.ui.disabled</name>
+		<value>true</value>
+	</library-property>
+
+<system-config>
+        <ui-factory-class>org.zkoss.zk.ui.http.SerializableUiFactory</ui-factory-class>
+    </system-config>
+</zk>

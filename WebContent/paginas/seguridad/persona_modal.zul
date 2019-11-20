@@ -1,0 +1,49 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window id="winPersonaModal" title="Administrar Persona" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.PersonaModalGestor')" border="normal" height="60%" width="70%" closable="true">
+
+<groupbox height="100%"> 
+	<caption label="Administra Persona"/>
+	<toolbar><toolbarbutton label="Guardar" image="/common/images/16X16/save.png" onClick="@command('guardar')"/> 
+	<toolbarbutton label="Cerrar" image="/common/images/16X16/close_x.png" onClick="@command('cerrarVentana')"/></toolbar>
+	
+	<grid>
+		<columns>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+		</columns>
+		<rows>
+			<row spans="1,3">	
+				
+				<label value="Cedula" />
+				<textbox width="100px" value="@bind(vm.objPersona.cedula)" focus="true"/>
+			</row>
+			<row spans="1,1,1,1">	
+				<label value="Nombres" />
+				<textbox width="90%" value="@bind(vm.objPersona.nombres)"/>
+				<label value="Apellidos"  />
+				<textbox width="90%" value="@bind(vm.objPersona.apellidos)"/>
+			</row>
+			<row spans="1,3">	
+				<label value="Dirección" />
+				<textbox width="90%" multiline="true" rows="2" value="@bind(vm.objPersona.direccion)"/>
+				
+			</row>
+			<row spans="1,1,1,1">	
+				<label value="Fecha Nacimiento" />
+				<datebox  value="@bind(vm.objPersona.fechaNacimiento)" readonly="true"/>
+				<label value="Estado" />
+				<combobox selectedItem="@bind(vm.objPersona.estado)" readonly="true">
+					<comboitem value="A" label="Activo"/><comboitem label="Inactivo" value="I"/>
+				</combobox>
+			</row>
+			
+		</rows>
+	</grid>
+</groupbox>	
+
+</window>
+</zk>

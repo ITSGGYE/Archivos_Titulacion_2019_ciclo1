@@ -1,0 +1,39 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.produccion.gestor.FormulacionGestor')" border="none" height="100%">
+
+<groupbox height="100%"> 
+	<caption label="Administrar Formulas"/>
+	<toolbar><toolbarbutton label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsFormulas)" selectedItem="@bind(vm.objFormula)">
+	<listhead>
+		<listheader label="Id Formulación" sort="auto" width="10%"/>
+		<listheader label="Nombre Fromula" sort="auto" width="30%"/>
+		<listheader label="Nombre Producto Terminado" sort="auto" width="30%"/>
+		<listheader label="Estado" sort="auto" width="10%"/>
+		<listheader label="" sort="auto" width="10%"/>
+	
+	</listhead>
+	<template name="model" var="fom">
+		<listitem>
+			<listcell label="@load(fom.idFormula)" />
+			<listcell label="@load(fom.nombre)" />
+			<listcell label="@load(fom.inProducto.nombre)" />
+			<listcell label="@load(fom.estado eq 'A'?'Activo':'Inactivo')" />
+			<listcell> 
+				<button label="Detalle" onClick="@command('modalDetalle',formula=fom)" />
+			</listcell>
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+	
+
+</window>
+</zk>

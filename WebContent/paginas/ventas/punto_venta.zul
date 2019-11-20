@@ -1,0 +1,110 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.ventas.gestor.PuntoVentaGestor')" border="none" height="100%" style="background-image: url('/common/images/img_fondo.jpeg')">
+
+<groupbox height="100%"> 
+	<caption label="Factura"/>
+	<toolbar>
+		<toolbarbutton label="Nuevo" image="/common/images/16X16/new.png" onClick="@command('nuevaFactura',tipo='N')"/>
+		<toolbarbutton label="Guardar" image="/common/images/16X16/save.png" onClick="@command('guardar')"/>
+	</toolbar>
+	
+	<grid>
+		<columns>
+			<column label="" width="20%"/>
+			<column label="" width="30%"/>
+			<column label="" width="20%"/>
+			<column label="" width="30%"/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Identificación" />
+				<textbox value="@bind(vm.identificacion)" onOK="@command('buscarPersona')" id="txtIdentificacion" focus="true" maxlength="10"/>
+				<label value="Nombre Cliente:" />
+				<textbox width="90%" value="@load(vm.objPersona.nombres)"/>
+			</row>
+			
+			<row spans="1,3">
+				<label value="Direccion" />
+				<textbox width="90%" rows="2" value="@load(vm.objPersona.direccion)"/>
+				
+			</row>
+		</rows>
+	</grid>
+	
+	<groupbox height="100%"> 
+	<caption label="Detalle Factura"/>
+	<toolbar><toolbarbutton label="Agregar" onClick="@command('buscarProducto')" image="/common/images/16X16/add.png"/></toolbar>
+	
+		<listbox model="@load(vm.lsDetalleFactura)" selectedItem="@bind(vm.objDetalleFactura)">
+			<listhead>
+				<listheader label="Eliminar" width="5%" sort="auto" />
+				<listheader label="Secuencia" width="10%" sort="auto" />
+				<listheader label="Procucto" width="45%" sort="auto" />
+				<listheader label="Precio" width="10%" sort="auto" />
+				<listheader label="Cantidad" width="10%" sort="auto" />
+				<listheader label="Total" width="10%" sort="auto" />
+				
+			</listhead>
+			<template name="model" var="det">
+			<listitem>
+				<listcell><button label="" image="/common/images/16X16/delete.png" onClick="@command('eliminarDetalle',param=det)" /></listcell>
+				<listcell label="@load(det.item)" />
+				<listcell label="@load(det.inProductoDtoExt.nombre)" />
+				<listcell label="@load(det.inProductoDtoExt.precio)" />
+				<listcell><doublebox value="@bind(det.cantidad)" onBlur="@command('calcularCambioTotal')" style="text-align:right;"></doublebox></listcell>
+				<listcell><doublebox value="@bind(det.total)" ></doublebox></listcell>
+				
+			
+			</listitem>
+			
+			</template>
+			
+			
+			
+		</listbox>
+		<grid>
+		<columns>
+			<column label="" width="90%" />
+			<column label="" width="10%"/>
+		</columns>
+		<rows>
+			<row style="border:2px solid #6d6da0;background:#dbdbec;">	
+			<div style="" align="right">
+				<label value="Subtotal" style="text-align:left;" />
+			</div>	
+				<div style="" align="right">
+					<label value="@load(vm.subtotal)" style="text-align:right;"/>
+				</div>
+				
+			</row>
+			<row style="border:2px solid #6d6da0;background:#dbdbec;">	
+			<div style="" align="right">
+				<label value="Iva" />
+			</div>	
+				<div style="" align="right">
+					<label value="@load(vm.iva)" />
+				</div>
+			</row>
+			<row style="border:2px solid #6d6da0;background:#dbdbec;">	
+			<div style="" align="right">
+				<label value="Total" />
+			</div>	
+				<div style="" align="right">
+					<label value="@load(vm.total)" />
+				</div>
+				
+			</row>
+		</rows>
+	</grid>
+		
+	</groupbox>
+
+	
+</groupbox>
+
+	
+
+</window>
+</zk>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ventas_detalle_1" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d5e2ad1f-aeac-447d-a0e7-918cd06e430d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="p_id_factura" class="java.lang.Integer"/>
+	<queryString>
+		<![CDATA[select d.id_detalle_factura,p.nombre,d.cantidad,d.precio_unitario ,(d.cantidad*d.precio_unitario+((d.cantidad*d.precio_unitario)*12)/100) as precio_total
+from detalle_factura d,in_producto p where d.id_producto=p.id_producto and d.id_factura=$P{p_id_factura}]]>
+	</queryString>
+	<field name="id_detalle_factura" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cantidad" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="precio_unitario" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="precio_total" class="java.lang.Double"/>
+	<columnHeader>
+		<band height="20">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="1fe7e4b7-598b-429e-9e77-0cfd01e9480e"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Id Detalle Factura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="149" height="20" uuid="a4c9fbfb-2300-4ffa-a5da-3005e5f1a839"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="255" y="0" width="100" height="20" uuid="7494af23-2ca0-43c7-901e-2dfd0f711a3c"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cantidad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="0" width="100" height="20" uuid="5b81e9ae-e874-4250-b368-3f440e37cd7d"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Precio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="0" width="100" height="20" uuid="a0d68084-eb95-4d46-aaeb-077f4941c663"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="386cd918-cf1c-471f-a77d-8adfc9df0fff"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{id_detalle_factura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="155" height="20" uuid="82f33692-7003-4885-a67a-6e19bc20e6c9"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="0" width="100" height="20" uuid="ba27c137-c9a0-4f06-84bb-dd2523ab0a86"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="100" height="20" uuid="7813774a-234e-40b8-adc4-9a446f8b379c"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{precio_unitario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="e8e1a975-16b6-46f8-9d5a-d303a5cb32d8"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{precio_total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

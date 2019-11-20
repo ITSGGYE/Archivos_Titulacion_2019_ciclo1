@@ -1,0 +1,48 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window id="winPersonaModal" title="Administrar Persona" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.produccion.gestor.FormulacionDetalleModalGestor')" border="normal" height="60%" width="70%" closable="true">
+
+	
+<groupbox height="100%"> 
+	<caption label="Detalle de Formula"/>
+	<toolbar><toolbarbutton label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	<separator spacing="20px"></separator>
+	<div align="center">
+		<label value="Nombre Producto Terminado" />
+		<label value="@load(vm.objFormula.nombre)" />
+	</div>
+	<separator spacing="20px"></separator>
+	
+	<hbox>
+		<listbox >
+			<listhead>
+				<listheader label="" sort="auto" />
+				<listheader label="" sort="auto" />
+			</listhead>
+			<listitem>
+				<listcell label="" />
+				<listcell label="" />
+			</listitem>
+		</listbox>
+		<div>
+			<button label="ddd" onClick="" />
+			<button label="oooo" onClick="" />
+		</div>
+<listbox >
+			<listhead>
+				<listheader label="" sort="auto" />
+				<listheader label="" sort="auto" />
+			</listhead>
+			<listitem>
+				<listcell label="" />
+				<listcell label="" />
+			</listitem>
+		</listbox>
+	
+	</hbox>
+	
+</groupbox>	
+</window>
+</zk>

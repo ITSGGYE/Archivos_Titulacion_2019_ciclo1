@@ -1,0 +1,36 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.gestor.PersonaGestor')" border="none" height="100%">
+
+<groupbox height="100%"> 
+	<caption label="Administra Persona"/>
+	<toolbar><toolbarbutton label="Agregar" image="/common/images/16X16/new.png" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsPersonas)" selectedItem="@bind(vm.objPersona)">
+	<listhead>
+		<listheader label="Cedula" sort="auto" width="10%"/>
+		<listheader label="Nombres" sort="auto" width="30%"/>
+		<listheader label="Apellidos" sort="auto" width="30%"/>
+		<listheader label="Fecha Nacimiento" sort="auto" width="10%"/>
+		<listheader label="Estado" sort="auto" width="10%"/>
+	</listhead>
+	<template name="model" var="per">
+		<listitem>
+			<listcell label="@load(per.cedula)" />
+			<listcell label="@load(per.nombres)" />
+			<listcell label="@load(per.apellidos)" />
+			<listcell label="@load(per.fechaNacimiento)" />
+			<listcell label="@load(per.estado eq 'A'?'Activo':'Inactivo')" />
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+	
+
+</window>
+</zk>

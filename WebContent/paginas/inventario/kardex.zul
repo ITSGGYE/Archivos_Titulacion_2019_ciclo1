@@ -1,0 +1,54 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.inventario.gestor.KardexGestor')" border="none" height="100%">
+
+<groupbox height="100%"> 
+	<caption label="Administrar Kardex"/>
+	<toolbar><toolbarbutton label="Agregar" onClick="@command('modal',tipo='N')"/></toolbar>
+	
+	
+	<div height="100px" align="center">
+	<separator spacing="30px"></separator>
+		<label value="Selección Producto: " /><combobox readonly="true" width="200px" model="@load(vm.lsProductos)" selectedItem="@bind(vm.objProducto)" onChange="@command('cargarKardex')">
+										<template name="model" var="prd">
+											<comboitem label="@load(prd.nombre)" value="@load(prd)" style="text-transform: uppercase;"/>
+										</template>
+										
+									</combobox>
+	</div>
+	
+	<listbox onDoubleClick="@command('modal',tipo='S')" model="@load(vm.lsKardex)" selectedItem="@bind(vm.objKardex)" mold="paging" pageSize="10" rows="10">
+	<listhead>
+		<listheader label="Id Kardex" sort="auto" width="10%"/>
+		<listheader label="Tipo Movimiento" sort="auto" width="30%"/>
+		<listheader label="Fecha Transaccion" sort="auto" width="30%"/>
+		<listheader label="Cantidad" sort="auto" width="10%"/>
+		<listheader label="Saldo Actual" sort="auto" width="10%"/>
+		<listheader label="Saldo Anterior" sort="auto" width="10%"/>
+		<listheader label="Costo Actual" sort="auto" width="10%"/>
+		<listheader label="Costo Anterior" sort="auto" width="10%"/>
+	</listhead>
+	<template name="model" var="kar">
+		<listitem>
+			<listcell label="@load(kar.idKardex)" />
+			<listcell label="@load(kar.inTipoMovimiento.nombre)" />
+			<listcell label="@load(kar.fechaTransaccion)" />
+			<listcell label="@load(kar.cantidad)" />
+			<listcell label="@load(kar.saldoActual)" />
+			<listcell label="@load(kar.saldoAnterior)" />
+			<listcell label="@load(kar.costoActual)" />
+			<listcell label="@load(kar.costoAnterior)" />
+			<listcell label="@load(per.estado eq 'A'?'Activo':'Inactivo')" />
+		</listitem>
+	</template>
+	
+</listbox>
+
+	
+</groupbox>
+
+	
+
+</window>
+</zk>

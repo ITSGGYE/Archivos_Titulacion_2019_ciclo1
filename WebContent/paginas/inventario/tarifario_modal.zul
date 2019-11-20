@@ -1,0 +1,51 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window id="winProductoModal" title="Administrar Persona" apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.agripublic.inventario.gestor.TarifarioModalGestor')" border="normal" height="60%" width="70%" closable="true">
+<groupbox height="100%"> 
+	<caption label="Administra Persona"/>
+	<toolbar><toolbarbutton label="Guardar" onClick="@command('guardar')" image="/common/images/16X16/save.png"/> 
+	<toolbarbutton label="Cerrar" onClick="@command('cerrarVentana')" image="/common/images/16X16/close_x.png"/></toolbar>
+	
+	<grid>
+		<columns>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+			<column label="" width="15%"/>
+			<column label="" width="35%"/>
+		</columns>
+		<rows>
+			<row spans="1,3">	
+				
+				<label value="Codigo Tarifario" />
+				<textbox width="100px" value="@bind(vm.objTarifario.idTarifario)"  readonly="true"/>
+			</row>
+			<row spans="1,3">	
+				
+				<label value="Nombre Producto" />
+				<textbox width="90%" value="@bind(vm.objTarifario.inProducto.nombre)"  readonly="true"/>
+			</row>
+			
+			<row spans="1,1,1,1">	
+				<label value="Valor Venta" />
+				<doublebox width="200px" value="@bind(vm.objTarifario.valorVenta)"  focus="true"/>
+				
+				<label value="Paga Iva" />
+				<combobox selectedItem="@bind(vm.objTarifario.pagaIva)" readonly="true">
+					<comboitem value="S" label="Si"/><comboitem label="No" value="N"/>
+				</combobox>
+			</row>			
+			
+			<row spans="1,1,1,1">	
+				
+				<label value="Estado" />
+				<combobox selectedItem="@bind(vm.objTarifario.estado)" readonly="true">
+					<comboitem value="A" label="Activo"/><comboitem label="Inactivo" value="I"/>
+				</combobox>
+			</row>
+			
+		</rows>
+	</grid>
+</groupbox>	
+</window>
+</zk>
