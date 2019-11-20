@@ -1,7 +1,0 @@
-completar_paciente
-conexion
-conn
-connect_db
-reg_vet
-reg_paciente
-reg_historial
