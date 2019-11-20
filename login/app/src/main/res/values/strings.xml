@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AditAPP </string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="default_notification_channel_id" translatable="false"> default_channel </string>
+    <string name="acercade">Acerca de tu Adita</string>
+    <string name="descripcionacercade">Somos una franquicia ecuatoriana\n\nLas mejores y más deliciosas empanadas de verde y harina; con carne, pollo, queso, camarón y cangrejo en un mismo lugar: "Las empanadas de la mama adita". Tenemos el derecho exclusivo a poseer, operar y otorgar franquicias de restaurantes. \n\nNuestra principal labor es dar placer en cada mordida. \n\n*Ganadores en redes sociales de racices 2018 y 2019.\n\n*Apertura el 29 de junio de 2015 desde 07:00 - 23:00\n\n*Sucursales en Sauces y Alborada.</string>
+
+    <string name="notificaciones1">
+    <a href="https://console.firebase.google.com/project/aditapp-7e3df/notification/compose">VAMOS A NOTIFICAR</a>
+    </string>
+
+    <string name="opcion0">Inicio</string>
+    <string name="opcion1">Consultas</string>
+    <string name="opcion2">restaurantes</string>
+    <string name="opcion3">cupones</string>
+    <string name="opcion4">acerca de</string>
+
+    <string name="cuponcito">cuponcito</string>
+
+    <string name="home">Inicio</string>
+    <string name="notificaciones">notificaciones</string>
+    <string name="mantenimiento">mantenimiento</string>
+    <string name="descuentos">descuento</string>
+
+
+    <string name="footer">Sobre la App</string>
+    <string name="android">Las Empanadas de la Mama Adita App para Android</string>
+    <string name="derechos">Todos los derechos  reservados \n © Cm</string>
+    <string name="link">Terminos y Condiciones</string>
+
+
+    <string name="promocion_1">Cafe Gratis</string>
+    <string name="promocion_2">Cafe Refill</string>
+    <string name="promocion_3">Lleva 4 x 3 empanadas</string>
+    <string name="promocion_4"> Desayunos</string>
+    <string name="decuentos">Promociones de tu aditapp</string>
+    <string name="adita_decuentos">Promociones de tu aditapp</string>
+
+
+    <string name="botoncupon">Adquiere tu cupon</string>
+    <string name="cuponespecial">Cafe especial para tu empanada.</string>
+    <string name="descripcioncupon">Cafe ilimitado gratis con la compra de tu empanada de verde o harina .</string>
+
+    <string name="cuponespecial2">Cafe Refill</string>
+    <string name="descripcioncupon2">Usa este cupon y obten cafe gratis con la compra de tu empanada de verde o harina .</string>
+
+
+    <string name="cuponespecial3">Una mas!!!!</string>
+    <string name="descripcioncupon3">Con la compra de 3 empanadas de verde o harina , te regalamos una empanada gratis.</string>
+
+
+    <string name="cuponespecial4">Oferta desayuno.</string>
+    <string name="descripcioncupon4">El valor de tu empanada de verde o harina sera de $1  a las 7:00 hasta las 11 am. disfuta un desayuno maravilloso con tu cupon ADITAPP.</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
