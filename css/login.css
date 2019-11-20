@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-jun-2018, 12:55:53
+    Author     : Ivan Mata
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.login-logo, .form-container {
+  margin: 0 auto;
+  max-width: 25em;
+  transition: all .5s ease-in-out;
+}
+
+.off-canvas {
+  
+}
+
+.login-logo {
+  padding: 1em;
+}
+.login-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.form-container {
+  background: #eee;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0px 0px 1em #ddd;
+}
+.form-container h2 {
+  margin-top: 0;
+  color: #008CBA;
+}
+.form-container .error {
+  color: red;
+  margin: .5em 0;
+}
+.form-container label span {
+  color: #d9534f;
+}
+.form-container button {
+  background: #0AC986;
+}
+.form-container button:hover {
+  background: #2D2C2C;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #eee;
+  margin: 1em;
+  font-family: 'Open Sans', sans-serif;
+}

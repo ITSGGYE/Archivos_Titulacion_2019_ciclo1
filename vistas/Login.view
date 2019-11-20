@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IniciarSesion</title>
+
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/Estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="../imagenes/logo.png" rel="shortcut icon" type="images/x-icon"/>
+    </head>
+    <body style="background: white">
+        <?php
+        // put your code here
+        ?>
+        <div class="container" >
+             <div class="login-logo off-canvas">
+                 <center><a href="#"><img src="../imagenes/iglesia2.png"  style="width: 160px;height: 160px;"></a></center>
+             </div>
+            
+            <div class="form-container off-canvas">
+
+                <form  class="form-signin" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" >
+                    <h2 id="title">Iniciar Sesión</h2>
+
+                    <div class="form-group">
+                        <label for="EmailAddress"><span>*</span> Usuario</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user"></i> </span>
+                            <input type="text" class="form-control" placeholder="Username" name="usuario" aria-describedby="sizing-addon1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contraseña"><span>*</span> Contraseña</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-lock"></i> </span>
+                            <input type="password" class="form-control" placeholder="*****" name="password" aria-describedby="sizing-addon1">
+                        </div>
+                    </div>
+                    <ul>
+                    <?php if (!empty($errores)): //si no esta vacia nuestra variable de errores,?>
+                        <?php echo $errores //que se muestre el mensaje de error?>
+                    <?php endif; ?>
+                    </ul>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" name="btingreso" style="background: #008888">Ingresar</button>
+
+                </form>
+
+
+            </div> <!-- /container -->
+
+        </div>
+
+        <script src="../js/jquery.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html>
