@@ -1,0 +1,273 @@
+-----------------------------------------------------
+-- Export file for user PR_OBJ                     --
+-- Created by Oscar Obando on 20/11/2019, 16:05:59 --
+-----------------------------------------------------
+
+spool BASE_DATOS.log
+
+prompt
+prompt Creating table DEMO_ENCUESTA
+prompt ============================
+prompt
+create table DEMO_ENCUESTA
+(
+  CODIGO   NUMBER,
+  PREGUNTA VARCHAR2(500)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+
+prompt
+prompt Creating table DEMO_MOVIMIENTO_CAB
+prompt ==================================
+prompt
+create table DEMO_MOVIMIENTO_CAB
+(
+  ID               NUMBER,
+  CODIGO_DOCUMENTO VARCHAR2(50),
+  OBSERVACION      VARCHAR2(1000),
+  CLIENTE          VARCHAR2(200),
+  CODIGO_CLIENTE   VARCHAR2(50),
+  FECHAPROCESO     DATE
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+
+prompt
+prompt Creating table DEMO_MOVIMIENTO_DETALLE
+prompt ======================================
+prompt
+create table DEMO_MOVIMIENTO_DETALLE
+(
+  ID_MOVIMIENTO   NUMBER,
+  ID_DETALLE      VARCHAR2(20),
+  CODIGO_PRODUCTO VARCHAR2(20),
+  NOMBRE_PRODUCTO VARCHAR2(200),
+  CANTIDAD        NUMBER(10,4),
+  PRESENTACION    VARCHAR2(100),
+  UNIDAD          VARCHAR2(50)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+
+prompt
+prompt Creating table DEMO_RESPUESTAS
+prompt ==============================
+prompt
+create table DEMO_RESPUESTAS
+(
+  CODIGO     NUMBER,
+  RESPUSTA   VARCHAR2(1),
+  ID_USUARIO VARCHAR2(60)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+
+prompt
+prompt Creating table DEMO_TRATAMIENTO
+prompt ===============================
+prompt
+create table DEMO_TRATAMIENTO
+(
+  CODIGO   NUMBER,
+  PREGUNTA VARCHAR2(1000),
+  OPCION   NUMBER
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+
+prompt
+prompt Creating table SE_PERSONAS
+prompt ==========================
+prompt
+create table SE_PERSONAS
+(
+  CODIGO_PERSONA             NUMBER(6) not null,
+  CODIGO_TIPO_PERSONA        NUMBER(3),
+  CODIGO_TIPO_IDENTIFICACION NUMBER(3),
+  NUMERO_IDENTIFICACION      VARCHAR2(15),
+  PRIMER_NOMBRE              VARCHAR2(30),
+  SEGUNDO_NOMBRE             VARCHAR2(30),
+  PRIMER_APELLIDO            VARCHAR2(30),
+  SEGUNDO_APELLIDO           VARCHAR2(30),
+  GENERO                     VARCHAR2(1),
+  FECHA_DE_NACIMIENTO        DATE,
+  CODIGO_PAIS                NUMBER(3),
+  CODIGO_PROVINCIA           NUMBER(3),
+  CODIGO_CIUDAD              NUMBER(3),
+  CODIGO_PARROQUIA           NUMBER(3),
+  CODIGO_ESTADO_CIVIL        NUMBER(3),
+  PAIS_NACIMIENTO            NUMBER(3),
+  FECHA_INGRESO              DATE,
+  USUARIO_INGRESO            VARCHAR2(15),
+  FECHA_MODIFICACION         DATE,
+  USUARIO_MODIFICACION       VARCHAR2(15),
+  NOMBRE_COMPLETO            VARCHAR2(200),
+  EMAIL                      VARCHAR2(200),
+  CELULAR                    VARCHAR2(20),
+  NOMBRE_REPRESENTADO        VARCHAR2(200),
+  EDAD                       NUMBER
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table SE_PERSONAS
+  add constraint PK_PERSONAS primary key (CODIGO_PERSONA)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table SE_PERSONAS
+  add constraint FK_PERSONA_ESTADO_CIVIL foreign key (CODIGO_ESTADO_CIVIL)
+  references SE_ESTADO_CIVIL (CODIGO_ESTADO_CIVIL);
+alter table SE_PERSONAS
+  add constraint FK_PERSONA_TIPO_ID foreign key (CODIGO_TIPO_IDENTIFICACION)
+  references SE_TIPO_IDENTIFICACION (CODIGO_TIPO_IDENTIFICACION);
+alter table SE_PERSONAS
+  add constraint FK_PERSONA_TIPO_PERSONA foreign key (CODIGO_TIPO_PERSONA)
+  references SE_TIPO_PERSONA (CODIGO_TIPO_PERSONA);
+alter table SE_PERSONAS
+  add constraint PK_PERSONA_CIUDAD foreign key (CODIGO_PAIS, CODIGO_PROVINCIA, CODIGO_CIUDAD)
+  references SE_CIUDADES (CODIGO_PAIS, CODIGO_PROVINCIA, CODIGO_CIUDAD);
+alter table SE_PERSONAS
+  add constraint PK_PERSONA_PAISES foreign key (CODIGO_PAIS)
+  references SE_PAISES (CODIGO_PAIS);
+alter table SE_PERSONAS
+  add constraint PK_PERSONA_PAIS_NAC foreign key (PAIS_NACIMIENTO)
+  references SE_PAISES (CODIGO_PAIS);
+alter table SE_PERSONAS
+  add constraint PK_PERSONA_PARROQUIA foreign key (CODIGO_PAIS, CODIGO_PROVINCIA, CODIGO_CIUDAD, CODIGO_PARROQUIA)
+  references SE_PARROQUIAS (CODIGO_PAIS, CODIGO_PROVINCIA, CODIGO_CIUDAD, CODIGO_PARROQUIA);
+alter table SE_PERSONAS
+  add constraint PK_PERSONA_PROVINCIAS foreign key (CODIGO_PAIS, CODIGO_PROVINCIA)
+  references SE_PROVINCIAS (CODIGO_PAIS, CODIGO_PROVINCIA);
+
+prompt
+prompt Creating table SE_USUARIOS
+prompt ==========================
+prompt
+create table SE_USUARIOS
+(
+  CODIGO_USUARIO        VARCHAR2(100) not null,
+  CODIGO_PERSONA        NUMBER,
+  CLAVE_USUARIO         VARCHAR2(300),
+  EMAIL                 VARCHAR2(200),
+  ESTADO                VARCHAR2(1),
+  FECHA_CREACION        DATE,
+  USUARIO_CREACION      VARCHAR2(20),
+  FECHA_ACTUALIZACION   DATE,
+  USUARIO_ACTUALIZACION VARCHAR2(20)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table SE_USUARIOS
+  add constraint PK_USUARIOS primary key (CODIGO_USUARIO)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table SE_USUARIOS
+  add constraint UK_PERSONA_USUARIO unique (CODIGO_USUARIO, CODIGO_PERSONA)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table SE_USUARIOS
+  add constraint FK_USUARIOS_PERSONA foreign key (CODIGO_PERSONA)
+  references SE_PERSONAS (CODIGO_PERSONA);
+
+
+spool off
