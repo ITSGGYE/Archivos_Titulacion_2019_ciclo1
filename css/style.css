@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+table {
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #ed1c40;
+  width:40%;
+  margin: 50px auto;
+  border-radius: .25rem;
+}
+
+thead tr:first-child {
+  background: #ed1c40;
+  color: #fff;
+  border: none;
+}
+
+th:first-child,
+td:first-child {
+  padding: 0 0 0 20px;
+}
+
+thead tr:last-child th {
+  border-bottom: 3px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+  cursor: default;
+}
+
+tbody tr:last-child td {
+  border: none;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child {
+  text-align: right;
+  padding-right: 1%;
+
+}
+input{
+  width: 100%;
+}
+select{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+}
+.button {
+  color: #aaa;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+.edit:hover {
+  color: #0a79df;
+}
+
+.delete:hover {
+  color: #dc2a2a;
+}
+.imprimir { 
+  width:60px;
+  height:40px;
+  background-image:url('../images/adobe.png');
+}
+
+/***************************************************
+**************        @Footer       ****************
+****************************************************/
+
+.bottom_addr {
+  font-size: 10px;
+  color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.bottom-nav{
+  text-align:center;
+  background:#02BDD6;
+  width:100%;
+  color:#fff;
+  height:35px
+}
+.bottom-nav .nav{float:none; margin:0}
+.bottom-nav .nav a{ padding: 0 25px; line-height:35px}
+
+.fixed-top, .fixed-bottom{
+  background:#3e4f6a;
+  position:fixed;
+  top:0;
+}
+.fixed-bottom{
+  top:auto;
+  bottom:0;
+}
+
+.text2 {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 2px;
+  margin-top: 10px;
+} 
+@media (max-width: 767px) {
+
+table{
+  width: 80%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+table{
+  width: 80%;
+  }
+
+}

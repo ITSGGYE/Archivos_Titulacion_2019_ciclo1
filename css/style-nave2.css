@@ -1,0 +1,180 @@
+.imprimir { 
+  width:60px;
+  height:40px;
+  background-image:url('../images/adobe.png');
+}
+.text3{
+  font-size: 30px;
+}
+
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #000;
+}
+
+nav {
+  background-color: #D3592B; /* color cuadro */
+   font-size: 14px;
+   text-align: center;
+}
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav .toggle {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav .nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav .nav > li {
+  float: left;
+  position: relative;
+  width: 32%;
+}
+nav .nav > li a {
+  display: block;
+  line-height: 50px; /* tamaño cuadro */
+  padding: 0 40px;
+  color: #fff; /* color texto cuadro */
+  text-decoration: none;
+}
+nav .nav > li a:active {
+  background-color: #b4b4b4;
+}
+nav .nav > li a:hover {
+  color: #263042; /* color texto sobre primer cuadro */
+}
+nav .nav > li.dropdown > a::after {
+  content: "+\00a0";
+  float: right;
+}
+nav .nav > li ul {
+  background-color: #cecece; /* color cuadro dentro */
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+nav .nav > li ul > li {
+  position: relative;
+}
+nav .nav > li ul > li a {
+  color: #000;
+  line-height: 40px; /* tamaño cuadro dentro */
+}
+nav .nav > li ul > li a:active {
+  background-color: #5493bb;
+}
+nav .nav > li ul > li a:hover {
+  color: #fff; /* color texto sobre primer cuadro */
+}
+nav .nav > li ul > li.dropdown > a::after {
+  content: "+\00a0";
+  float: right;
+}
+nav .nav > li ul > li ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #c1d8e7;
+}
+nav .nav > li ul > li ul > li {
+  position: relative;
+}
+nav .nav > li ul > li ul > li a {
+  color: #384763;
+  line-height: 60px;
+}
+nav .nav > li ul > li ul > li a:active {
+  background-color: #5493bb;
+}
+nav .nav > li ul > li ul > li a:hover {
+  color: #263042;
+}
+nav .nav > li ul > li ul > li:hover {
+  background-color: #79aac9;
+}
+nav .nav > li ul > li:hover {
+  background-color: #3E4F6A; /* color cuadro dentro */
+}
+nav .nav > li:hover {
+  background-color: #D3592B; /* color sobre primer cuadro */
+}
+nav .nav > li:hover > ul {
+  display: block;
+}
+nav .nav > li:hover > ul li:hover ul {
+  display: block;
+}
+
+@media only screen and (max-width: 40em) {
+  .wrapper {
+    width: 100%;
+  }
+  nav .toggle {
+    display: block;
+    line-height: 50px;
+    padding: 0 25px;
+  }
+  nav .nav > li {
+    float: none;
+    position: static;
+    width: 100%;
+  }
+  nav .nav > li a {
+    line-height: 50px;
+    padding: 0 25px;
+  }
+  nav .nav > li ul {
+    background-color: #9DC1D8;
+    position: static;
+    display: block;
+  }
+  nav .nav > li ul > li {
+    position: static;
+  }
+  nav .nav > li ul > li a {
+    color: #384763;
+    line-height: 50px;
+  }
+  nav .nav > li ul > li ul {
+    position: static;
+    left: 0;
+    top: 0;
+  }
+  nav .nav > li ul > li ul > li {
+    position: static;
+  }
+  nav .nav > li ul > li ul > li a {
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  
+  color: #000;
+}
+nav {
+  background-color: #D3592B; /* color cuadro */
+   font-size: 12px;
+   text-align: center;
+}
+
+}
