@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorcua"
+    tools:context=".Producto">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:text="Productos"
+        android:textSize="40dp"
+        android:textColor="@color/coloruno"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/comidaperro"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Comida Perro" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/gourmet"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Comida Gourmet" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/lata"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Comida en lata" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/pate"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Pate" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/accesorios"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Accesorios" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/collar"
+        android:layout_above="@+id/button4"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Collares" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/bandeja"
+        android:layout_above="@+id/button6"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Bandeja" />
+
+    <Button
+        android:id="@+id/prod1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:drawableTop="@drawable/arnes"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Arnes" />
+</RelativeLayout>

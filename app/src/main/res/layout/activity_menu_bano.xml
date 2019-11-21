@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuBano">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/coloruno"
+        android:text="Menu Servicio de Baño"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <Button
+            android:id="@+id/mbfecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/coloruno"
+            android:layout_marginTop="10dp"
+            android:text="Seleccionar Fecha"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mbvfecha"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/coloruno"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Horarios de Atencion"/>
+
+    <Button
+        android:id="@+id/mbhora1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/reloj"
+        android:text="9 AM - 10 AM" />
+
+    <Button
+        android:id="@+id/mbhora2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="10 AM - 11 AM" />
+
+    <Button
+        android:id="@+id/mbhora3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="11 AM - 12 AM" />
+
+    <Button
+        android:id="@+id/mbhora4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="1 PM - 2 PM" />
+
+    <Button
+        android:id="@+id/mbhora5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="2 PM - 3 PM" />
+
+    <Button
+        android:id="@+id/mbhora6"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="3 PM - 4 PM" />
+
+    <Button
+        android:id="@+id/mbhora7"
+        android:textSize="20dp"
+        android:background="@color/colorcua"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reloj"
+        android:text="4 PM - 5 PM" />
+
+</LinearLayout>

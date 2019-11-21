@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colordos"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Administar">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Menu Administar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/aedit"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="30dp"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/editar"
+        android:text="Editar Perfil"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/alista"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/aedit"
+        android:layout_marginTop="20dp"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/lista"
+        android:text="Lista De citas"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/aprogramar"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/alista"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/crear"
+        android:text="Crear Promocion"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/alprogramar"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/aprogramar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/promo"
+        android:text="Lista de Promociones"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/cprod"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/alprogramar"
+        android:layout_marginTop="20dp"
+        android:text="Crear Producto"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/insertar"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/lprod"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/cprod"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@color/colortre"
+        android:drawableLeft="@drawable/lproduc"
+        android:text="Lista de Productos"
+        android:textColor="@color/coloruno"
+        android:textSize="20dp" />
+</RelativeLayout>

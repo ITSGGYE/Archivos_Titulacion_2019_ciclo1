@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminEdit">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="238dp"
+        android:layout_above="@+id/anom"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/edit" />
+
+    <EditText
+        android:id="@+id/anom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/alog"
+        android:layout_marginBottom="10dp"
+        android:hint="Nombre"
+        android:textColorHint="@color/colordos"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/alog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/acla"
+        android:layout_marginBottom="8dp"
+        android:hint="Login"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/acla"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/atel"
+        android:layout_marginBottom="26dp"
+        android:hint="Clave"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/atel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/acor"
+        android:layout_marginBottom="14dp"
+        android:hint="Telefono"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/acor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adgua"
+        android:layout_marginBottom="45dp"
+        android:hint="Correo"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/adgua"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/colordos"
+        android:text="Guardar"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+</RelativeLayout>

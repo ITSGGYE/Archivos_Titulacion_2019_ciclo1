@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuCitas">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_above="@+id/mcconsulta"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="102dp"
+        android:gravity="center"
+        android:text="Seleccione el servicio para agendar"
+        android:textAlignment="center"
+        android:textColor="@color/coloruno"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/mcconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mcbaño"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorcua"
+        android:drawableLeft="@drawable/consulta"
+        android:text="Consulta Medica"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mcbaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mcpelu"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorcua"
+        android:drawableLeft="@drawable/perrito"
+        android:text="Servico de Baño"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mcpelu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="132dp"
+        android:background="@color/colorcua"
+        android:drawableLeft="@drawable/peluqueria"
+        android:text="Servicio de Peluqueria"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+</RelativeLayout>

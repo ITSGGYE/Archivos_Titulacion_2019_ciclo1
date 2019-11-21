@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="238dp"
+        android:layout_above="@+id/anom"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/admin" />
+
+    <EditText
+        android:id="@+id/anom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/alog"
+        android:layout_marginBottom="40dp"
+        android:focusable="false"
+        android:hint="Nombre"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/alog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/atel"
+        android:layout_marginBottom="39dp"
+        android:focusable="false"
+        android:hint="Login"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/atel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adact"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="104dp"
+        android:focusable="false"
+        android:hint="Telefono"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/acor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adact"
+        android:layout_alignEnd="@+id/atel"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:focusable="false"
+        android:hint="Correo"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/adact"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/adcerrar"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colordos"
+        android:text="Administrar"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/adcerrar"
+        android:layout_width="280dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colordos"
+        android:text="Cerrar Sesion"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+</RelativeLayout>

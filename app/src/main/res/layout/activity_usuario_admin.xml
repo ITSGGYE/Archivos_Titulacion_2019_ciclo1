@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsuarioAdmin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_above="@+id/uanom"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/admin" />
+
+    <TextView
+        android:id="@+id/uanom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/uatel"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/uatel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/uacor"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/uacor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt7"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt6"
+        android:layout_marginBottom="5dp"
+        android:text="Guayaquil Guayas"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt5"
+        android:layout_marginBottom="5dp"
+        android:text="Horario de Atencion"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt4"
+        android:layout_marginBottom="5dp"
+        android:text="Luneas a viernes"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt3"
+        android:layout_marginBottom="5dp"
+        android:text="9 AM - 12 AM "
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt2"
+        android:layout_marginBottom="5dp"
+        android:text="13 PM - 17 PM"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txt1"
+        android:layout_marginBottom="5dp"
+        android:text="Sabado"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:text="11 AM -15 PM"
+        android:textColor="@color/coloruno"
+        android:textSize="25dp" />
+</RelativeLayout>

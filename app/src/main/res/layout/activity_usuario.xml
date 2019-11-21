@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorcua"
+    tools:context=".Usuario">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Agenda de citas"
+        android:textAlignment="center"
+        android:textColor="@color/coloruno"
+        android:textSize="40dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/cita" />
+
+    <Button
+        android:id="@+id/uagendar"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/uaproduc"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="23dp"
+        android:drawableTop="@drawable/agendar"
+        android:gravity="center"
+        android:text="Agendar Cita"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/ucancelar"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/uanun"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="21dp"
+        android:drawableTop="@drawable/cancelar"
+        android:gravity="center"
+        android:text="Lista de Citas"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/uadmin"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp"
+        android:drawableTop="@drawable/user"
+        android:gravity="center"
+        android:text="Información"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/ucerrar"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="12dp"
+        android:drawableTop="@drawable/cerrar"
+        android:gravity="center"
+        android:text="Cierre de sesion"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/uanun"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/ucerrar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="36dp"
+        android:drawableTop="@drawable/notificacion"
+        android:text="Anuncios"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/uaproduc"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/uadmin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="15dp"
+        android:drawableTop="@drawable/producto"
+        android:text="Productos"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>
