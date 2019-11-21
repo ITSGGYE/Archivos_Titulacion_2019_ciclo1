@@ -1,0 +1,94 @@
+
+/*Formulario Inicio de Sesión*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    bottom: 100%;
+    left: 23%; /*Manipular el centrado*/
+    transform: translate(0%, 30%);
+    padding-bottom: 50px;
+
+}
+
+.form{
+    width: 100%;
+    background-color: aqua;
+}
+
+.form .welcome-form h2{
+    top: 5%
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+ 
+   
+}
+.line-input, select{
+    max-width: 350px;
+    display: block;
+    border-bottom: 1px solid #efefef;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px;
+    position:relative;
+    border-radius: 2px;
+}
+.border-input, select{
+    border-bottom: 5px solid #5584FF;
+}
+.line-input input, select{
+    border-style: ;
+    outline: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 300;
+    border-radius: 1px;
+}
+.line-input label{
+    font-size: 20px;
+    position:relative;
+    top: -4px;
+    color: #666;
+
+}
+.form button{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    border-style: none;
+    outline: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #4169E1;
+}
+.form button:hover{
+    opacity: .9;
+}
+.form button label{
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    background: #4169E1;
+}
+.form{
+    background: white ;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.lnr-chevron-right{
+    background: #4169E1;
+
+}

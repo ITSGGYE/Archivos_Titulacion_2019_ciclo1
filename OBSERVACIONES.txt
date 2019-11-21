@@ -1,0 +1,25 @@
+--------Puntos a Arreglar el Software--------------------------------
+
+1.- No modificar nada de stock_agregar ni de vtas_agregar
+2.- Generar reporte de lo de indica en el panel de control
+3.- "21232f297a57a5a743894a0e4a801fc3" representa a admin en md5
+
+-- -------------------------------------------------------------------
+-- Prueba de Hosting Gratiuto  (000webhost) exitoso
+-- -------------------------------------------------------------------
+Para ingresar al CPanel se hace login mediante la cuenta de Google
+ 
+Para ingresar al sitio web de archivo se accede de la siguientw manera
+Nombre del Sitio web = https://fruterialucho.000webhostapp.com
+Contraseña= fruteria124
+
+-- Para el sistema web de inventario 
+Usuario: administrador 
+Clave: fruteria
+
+-- Datos del Servidor Phpmyadmin
+BD: id11284378_inventario_lucho
+Host: Localhost
+Usuario: id11284378_root
+Contraseña: fruteria
+	
