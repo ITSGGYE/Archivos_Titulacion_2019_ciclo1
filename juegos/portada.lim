@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>458FA5</corfondo>
+        <corbanda>458FA5</corbanda>
+        <cornavega>458FA5</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>FFFFFF</cortexto>
+        <titulo>JUEGOS</titulo>
+        <subtitulo>APRENDE JUGANDO</subtitulo>
+        <autor>ALEX</autor>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+         <sonido nivel="100" modo="1" >Alan_Walker_-__Love_always_(New_song)(MP3_70K).mp3</sonido>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>funcionamientogif.gif</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="24">EN ESTA SECCION ENCONTRAREMOS DIFERENTES JUEGOS DE LO YA APRENDIDO EN CLASES<br>
+<br>
+</font></p>
+<p align="center">
+<font color="#FFFFFF" face="Arial" size="24">TEMAS:<br>
+<br>
+</font></p>
+<p align="center">
+<font color="#FFFFFF" face="Arial" size="24"><li>TEJIDO MUSCULAR</li>
+<li>CELULAS MUSCULARES</li>
+<li>PLACA NEUROMUSCULAR</li>
+<li>CONTRACTIVILIDAD</li>
+<li>TIPOS DE FIBRAS MUSCULARES</li>
+<br>
+</font></p>
+<p align="center">
+<font color="#FFFFFF" face="Arial" size="24">TIPOS DE MUSCULOS:<br>
+<br>
+</font></p>
+<p align="center">
+<font color="#FFFFFF" face="Arial" size="24"><li>MUSCULO ESTRIADOS</li>
+<li>MUSCULOS LISO MUSCULO CARDIACO</li></font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>38</tipo>
+              <imaxe>portada.gif</imaxe>
+              <forma>1</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="12">TEJIDO MUSCULAR<br>
+<br>
+Existen básicamente tres tipos de tejido muscular:<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="12"><li>esquelético</li>
+<li>cardiaco </li>
+<li>liso</li>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="16">Los tres presentan la propiedad de la contractibilidad por la cual las células pueden disminuir y aumentar su longitud, pero difieren por sus características microscópicas, localización y la forma en que se regula la contracción que puede ser voluntaria a través de órdenes generadas en el lóbulo frontal del cerebro o involuntaria, es decir automática sin que intervenga la voluntad, tal como ocurre en el músculo cardiaco o en la capa muscular que está situada en la pared del intestino.<br>
+<br>
+PROPIEDADES<br>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="16"><li>Excitabilidad eléctrica. El tejido muscular recibe impulsos eléctricos del sistema nervioso y responde a los mismos generando movimiento.</li>
+<li>Contractibilidad. Se define como la capacidad de acortamiento que genera una tensión llamada fuerza de contracción. Si la tensión producida supera la resistencia, se produce un movimiento que será diferente dependiendo del lugar en el que esté situado el músculo.</li>
+<li>Extensibilidad. Es la capacidad del músculo para extenderse sin sufrir daño alguno. Esta propiedad puede apreciarse claramente en la capa muscular del estómago que se distiende considerablemente cuando el estómago se llena de comida durante el proceso de digestión.</li>
+<li>Elasticidad. Se refiere a la capacidad del tejido muscular para volver a su longitud original después del proceso de contracción o tras su estiramiento.</li>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Arial" size="12">YA HEMOS REPASADO ES HORA DE PONERLO EN PRACTICA CON JUEGOS..!!!<br>
+</font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+        <paxina id="3" >
+              <tipo>4</tipo>
+              <modo>2</modo>
+              <sopa enun="funciones.jpg">esqueletico</sopa>
+              <sopa enun="estriado.png">cardiaco</sopa>
+              <sopa enun="estriadogif.gif">liso</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="4" >
+              <tipo>3</tipo>
+              <imaxe>img1.png</imaxe>
+              <imfondo  trans="100">img1.png</imfondo>
+              <filas>3</filas>
+              <columnas>2</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+        <paxina id="5" >
+              <tipo>13</tipo>
+              <unir texto="Excitabilidad ">impulsos electricos</unir>
+              <unir texto="Contractibilidad">fuerza de contracción</unir>
+              <unir texto="Extensibilidad">extenderse sin daño</unir>
+              <unir texto="Elasticidad">recupera estado normal</unir>
+        </paxina>
+        <paxina id="6" >
+              <tipo>18</tipo>
+              <modo>2</modo>
+              <completa ant=" El tejido muscular recibe impulsos eléctricos del sistema nervioso y responde a los mismos generando movimiento" post="">Excitabilidad eléctrica</completa>
+              <completa ant="Se define como la capacidad de acortamiento que genera una tensión llamada fuerza de contracción." post="">Contractibilidad</completa>
+              <completa ant=". Es la capacidad del músculo para extenderse sin sufrir daño alguno." post="">Extensibilidad</completa>
+              <completa ant=" Se refiere a la capacidad del tejido muscular para volver a su longitud original después del proceso de contracción o tras su estiramiento." post="">Elasticidad</completa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>17</tipo>
+              <parellas>liso.png</parellas>
+              <parellas>liso.png</parellas>
+              <parellas>cardiaco.jpg</parellas>
+              <parellas>cardiaco.jpg</parellas>
+              <parellas>esqueletico.jpg</parellas>
+              <parellas>esqueletico.jpg</parellas>
+              <cfondo>458FA5</cfondo>
+              <ctapa>009B9B</ctapa>
+        </paxina>
+    </libro>
+</lim>

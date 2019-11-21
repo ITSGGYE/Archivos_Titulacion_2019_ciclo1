@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>008080</corfondo>
+        <corbanda>008080</corbanda>
+        <cornavega>008080</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>FFFFFF</cortexto>
+        <titulo>JUEGOS</titulo>
+        <subtitulo>SISTEMA OSEO</subtitulo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+         <sonido nivel="100">Alan_Walker_-__Love_always_(New_song)(MP3_70K).mp3</sonido>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>portada.gif</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="center">
+<font color="#FFFFFF" face="Century Gothic" size="24"><b>SISTEMA OSEO</b><br>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Century Gothic" size="18">EN ESTA SECCION ENCONTRAREMOS DIFERENTES JUEGOS DE LO YA APRENDIDO EN CLASES<br>
+<br>
+</font></p>
+<p align="center">
+<font color="#FFFFFF" face="Century Gothic" size="18">TEMAS:<br>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Century Gothic" size="18">FUNCIONES<br>
+ESTRUCTURA DE LOS HUESOS<br>
+TIPOS DE HUESOS<br>
+NUMERO DE HUESOS<br>
+ESQUELETO AXIAL<br>
+ESQUELETO APENDICULAR<br>
+TEJIDO OSEO</font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>38</tipo>
+              <imaxe>SistemaOseo-rompecabezas.jpg</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="center">
+<font color="#FFFFFF" face="Calibri" size="24">LOS SIGUIENTES JUEGOS EMPEZARAN CON:<br>
+<br>
+</font></p>
+<p align="left">
+<font color="#FFFFFF" face="Calibri" size="24"><li>ROMPECABEZAS.</li>
+<li>CRUSIGRAMA.</li>
+<li>COMPLETAR LAS PALABRAS</li>
+<li>UNIR PALABRAS</li>
+<li>JUEGOS DE MEMORIA</li></font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+        <paxina id="3" >
+              <tipo>3</tipo>
+              <imaxe>SistemaOseo-rompecabezas.jpg</imaxe>
+              <imfondo  trans="100">SistemaOseo-rompecabezas.jpg</imfondo>
+              <filas>3</filas>
+              <columnas>2</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+        <paxina id="4" >
+              <tipo>4</tipo>
+              <modo>2</modo>
+              <sopa enun="cubito.jpg">cúbito</sopa>
+              <sopa enun="femur.jpg">femur</sopa>
+              <sopa enun="humero.jpg">huemero</sopa>
+              <sopa enun="perone.jpg">perone</sopa>
+              <sopa enun="radio.jpg">radio</sopa>
+              <sopa enun="tibia.png">tibia</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="5" >
+              <tipo>7</tipo>
+              <caixa1>EXQUELETO AXIAL</caixa1>
+              <caixa2>EXQUELETO APENDICULAR</caixa2>
+              <mini caixa="1">CABEZA.jpg</mini>
+              <mini caixa="2">cubito.jpg</mini>
+              <mini caixa="1">CAJA.toracica.jpg</mini>
+              <mini caixa="2">femur.jpg</mini>
+              <mini caixa="1">columna.png</mini>
+              <mini caixa="2">humero.jpg</mini>
+              <cfondo>008080</cfondo>
+              <modo>1</modo>
+        </paxina>
+        <paxina id="6" >
+              <tipo>50</tipo>
+              <peza imaxe="CABEZA.jpg"  son="">babeza</peza>
+              <peza imaxe="cubito.jpg"  son="">cubito</peza>
+              <peza imaxe="femur.jpg"  son="">femur</peza>
+        </paxina>
+        <paxina id="7" >
+              <tipo>34</tipo>
+              <imaxe>perone.jpg</imaxe>
+              <forma>1</forma>
+              <modo>2</modo>
+              <completa>Perone</completa>
+        </paxina>
+        <paxina id="8" >
+              <tipo>17</tipo>
+              <parellas>columna.png</parellas>
+              <parellas>femur.jpg</parellas>
+              <parellas>cubito.jpg</parellas>
+              <parellas>humero.jpg</parellas>
+              <parellas>perone.jpg</parellas>
+              <parellas>radio.jpg</parellas>
+              <cfondo>008080</cfondo>
+              <ctapa>00BFBF</ctapa>
+        </paxina>
+        <paxina id="9" >
+              <tipo>19</tipo>
+              <imaxe>cubito.jpg</imaxe>
+              <texto><![CDATA[es un hueso que se encuentra en el antebrazo. Dispone de un cuerpo extenso y de dos extremidades, articulándose con el radio y el húmero en su parte superior y con el carpo y el radio en su parte inferior.]]></texto>
+              <resp texto="">cubito</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+    </libro>
+</lim>
