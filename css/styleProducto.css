@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.precio{
+	color:#ff3333;
+	font-size:16px;
+	font-weight:bold;
+	}
+.existencia{
+	font-weight:bold;
+	font-size:14px;
+}
+.container_usuario{
+	left:0;
+	
+	
+	width:550px;
+	height:420px;
+	border-radius:5px;
+	border:10px solid rgba(255,255,255,.2);
+	box-shadow:10px 10px 15px rgba(0,0,0,.5);
+}
+.loginbox{
+	float:right;
+	width:100%;
+	height:320px;
+	box-sizing:border-box;
+	padding:20px 40px;
+	background:rgba(255,255,255,.8);
+}
+
+.loginbox h3{
+	margin:0;
+	padding:0 0 20px;
+	color:#262626;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid #262626;
+	outline:none;
+	height:25px;
+	color#262626;
+	background:transparent;
+	font-size:16px;
+	padding-left:20px;
+	box-sizing:border-box;
+
+}
+::placeholder{
+	color:rgba(0,0,0,.5);
+}
+.inputBox{
+	position:relative;
+}
+
+.inputBox span{
+	position:absolute;
+	top:10px;
+	color:#262626;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	font-size:16px;
+	background:#00bcd4;
+	color:#fff;
+	border-radius:20px;
+	cursor:pointer;
+}
+#registrouser{
+	height:1200px !important;
+}

@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+/*Tarjeta Vision,Mision*/
+.contenedor{
+	max-width:1000px;
+	min-height:50vh;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	transition:0.5s;
+	align-items:center;
+	
+}
+.contenedor .card{
+	position:relative;
+	width:250px;
+	height:250px;
+	margin:0 40px 0 40px;
+	display:flex;
+	justify-content:justify;
+	flex-wrap:wrap;
+	transition:0.5s;
+}
+.contenedor:hover .card{
+	filter:blur(5px);
+	transform:scale(.7);
+}
+.contenedor .card:hover{
+	filter:blur(0px);
+	transform:scale(1);
+}
+.contenedor .card:before {
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	z-index:1;
+	transition:0.5s;
+	margin:20px;
+}
+.contenedor .card:hover:before {
+	background-image: radial-gradient(ellipse closest-corner at center, #ffffff 30%, #9fbed1 100%);
+	transform:scaleY(1.15);
+	box-shadow:0 5px 5px rgba(0,0,0,.2);
+}
+.contenedor .card .conten_card{
+	text-align:center;
+	z-index:2;
+	padding:0 40px 0;
+	left:5px;
+	transition:0.5s;
+}
+.contenedor .card:hover .conten_card{
+	color:#000;
+}
+.contenedor .card .conten_card h2{
+	font-size:3em;
+}
+.contenedor .card .conten_card p{
+	font-size:1em;
+	text-align:justify;
+}
+.parrafos{
+	text-align:justify;
+	margin-right:20px;
+}
+/*card personal*/
+
+section{
+	margin:50px 0;
+}
+.imagebox{
+	position:relative;
+	margin:40px auto;
+	border-radius:4px;
+	overflow:hidden;
+	max-width:300px;
+}
+.imagebox h3{
+	position:absolute;
+	margin:0;
+	padding:0;
+	top:-24px;
+	transform:translatey(-50%);
+	text-align:center;
+	width:100%;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:0 2px 5px rgba(0,0,0,0.5);
+	transition:.5s;
+}
+.imagebox:hover h3{
+	top:50%;
+	transform:translatey(-50%);
+}
+
+.imagebox p{
+	position:absolute;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	width:100%;
+	background:rgba(0,0,0,.2);
+	transform:translateY(90px);
+	transition:.5s;
+	color:#fff;
+	font-size:20px;
+	
+	
+}
+.imagebox img{
+	width:100%;
+	height:280px;
+}
+.imagebox:hover p{
+	transform:translateY(-90px);
+}

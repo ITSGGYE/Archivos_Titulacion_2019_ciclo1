@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	background:#f6f6f6;
+}

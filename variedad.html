@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.btton{
+	width:20%;
+	background:#00bcd4;
+	color:#fff;
+	border:none;
+	border-radius:0;
+	outline:none;
+	height:30px;
+	font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+</style>
+
+<title>Comuna Libertador</title>
+<link href="ccs/lb2.css" rel="stylesheet" type="text/css" />
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+<script language='javascript' src='js/deber.js'></script>
+
+</head>
+
+<body>
+
+
+	
+    <div class="container-fluid">
+    <form action="php/guardar_tipo_variedad.php" method="post" enctype="multipart/form-data" class="form" >
+	
+    <label class="title" style="color:#00bcd4; margin-top:20px;">Variedad Producto</label>
+    <div class="row">
+    	<div class="col-12" align="center">
+        <input type="text" name="nombre" id="nombre" size=50 class="form-input" onKeyUp='mayus(this)'  onKeyPress='return soloLetras(event)' style="margin-top:10px; margin-bottom:30px;"/>
+        </div>
+    </div>
+    
+ 	  <div class="row" align="center">
+      <div class="col-12">
+    <input type="submit" value="Guardar" class="btton" />
+    <input type="reset" value="Cancelar" class="btton"  />
+    <input type="button" value=" Cerrar " class="btton" onclick="cerrarw()" />
+      </div>
+    </div>
+    </form> 
+    </div>
+
+
+</body>
+</html>
