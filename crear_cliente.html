@@ -1,0 +1,47 @@
+﻿	<!DOCTYPE html>
+	<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/tablas1.css">
+	<body background="img/fondo2.png">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<center><a href='main.php' ><img src='img/inicio.png' alt='Inicio'></a></center>
+
+	<h1 style='color: #58ACFA;' align='center'><strong>Crear Nuevo Cliente</strong></h1><br><br>
+	<center><form method="POST" action="grabar_cliente.php" return mensaje();>
+
+		<table>
+		<tr>
+		<td>Ingrese Nombre:</td>
+		<td><input type="text" id="f_nombrecliente" name="f_nombrecliente" required> </td>
+		</tr>
+		<tr>
+		<td>Ingrese Apellido:</td>
+		<td><input type="text" id="f_apellidocliente" name="f_apellidocliente" required></td>
+		</tr>
+		<tr>
+		<td>Cédula o RUC:</td>
+		<td><input type="number" id="f_cedulacliente" name="f_cedulacliente" maxlength="13" required></td>
+		</tr>
+		<tr>
+		<td>Teléfono:</td>
+		<td><input type="number" id="f_telefonocliente" name="f_telefonocliente" required></td>
+		</tr>
+		<tr>
+		<td>Correo Electrónico:</td>
+		<td><input type="text" id="f_email" name="f_email" required></td>
+		</tr>
+		<tr>
+		<td>Dirección:</td>
+		<td><input type="text" id="f_direccioncliente" name="f_direccioncliente" required></td>
+		</tr>
+		</table>
+		<br><br>
+		<input type="reset" id="limpiar" name="limpiar" value="limpiar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" id="grabar" name="grabar" value="Grabar">
+		<br><br>
+	</form>
+		<br><br>
+</html>
+<html><center><a href='main.php'><img src="img/regresar.jpg"></a></center><html>                     
